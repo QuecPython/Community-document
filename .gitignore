@@ -6,4 +6,5 @@ __pycache__
 dist
 Makefile
 
-
+_sidebar.md
+_navbar.md

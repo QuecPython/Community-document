@@ -9,3 +9,4 @@ Makefile
 _sidebar.md
 _navbar.md
 .vscode
+restart.sh

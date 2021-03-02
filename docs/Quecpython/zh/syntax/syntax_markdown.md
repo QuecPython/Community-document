@@ -5,13 +5,13 @@ keywords: teedoc, markdown, 语法
 desc: teedoc 的 markdown 语法介绍和实例
 ---
 
-本文是使用`Markdown`编写的文档，使用`teedoc`生成的页面效果， `Markdown`文件见[这里](https://github.com/teedoc/teedoc.github.io/blob/main/docs/get_started/zh/syntax/syntax_markdown.md)
+本文是使用`Markdown`编写的文档，使用`teedoc`生成的页面效果， `Markdown`文件见[这里](https://github.com/teedoc/teedoc.github.io/blob/main/docs/Quecpython/zh/syntax/syntax_markdown.md)
 
 ## Markdown 基本文件内容格式
 
 需要先在`site_config.json`中确认有`markdown`解析插件启用了，比如`teedoc-plugin-markdown-parser`。
 
-在`config.json`对应的目录下建立文件夹或者文件， 比如`get_started/zh/syntax/syntax_markdown.md` (`README.md`最终会生成`index.html`)， 然后编写内容：
+在`config.json`对应的目录下建立文件夹或者文件， 比如`Quecpython/zh/syntax/syntax_markdown.md` (`README.md`最终会生成`index.html`)， 然后编写内容：
 
 ### Markdown 文件头
 

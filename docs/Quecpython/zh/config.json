@@ -9,31 +9,20 @@
         "home_url": "/",
         "items": [
             {
-                "url": "/get_started/zh/",
-                "label": "安装使用",
+                "url": "/Quecpython/zh/",
+                "label": "Quecpython",
                 "position": "left"
-            },
-            {
-                "url": "/develop/zh/",
-                "label": "开发",
-                "position": "left"
-            },
-            {
-                "url": "https://github.com/neutree/teedoc",
-                "label": "github",
-                "target": "_blank",
-                "position": "right"
             },
             {
                 "label": "Language: ",
                 "position": "right",
                 "items": [
                     {
-                        "url": "/get_started/zh/",
+                        "url": "/Quecpython/zh/",
                         "label": "中文"
                     },
                     {
-                        "url": "/get_started/en/",
+                        "url": "/Quecpython/en/",
                         "label": "English"
                     }
                 ]

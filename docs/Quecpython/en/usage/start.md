@@ -52,7 +52,7 @@ The built document will be placed in the `out` directory, the program will not a
 │ ├─develop
 │ │ ├─en
 │ │ └─zh
-│ └─get_started
+│ └─Quecpython
 │ ├─assets
 │ ├─en
 │ └─zh
@@ -114,8 +114,8 @@ The configuration file is in `json` format, for example:
     "site_protocol": "https",
     "route": {
         "docs": {
-            "/get_started/zh/": "docs/get_started/zh",
-            "/get_started/en/": "docs/get_started/en",
+            "/Quecpython/zh/": "docs/Quecpython/zh",
+            "/Quecpython/en/": "docs/Quecpython/en",
             "/develop/zh/": "docs/develop/zh",
             "/develop/en/": "docs/develop/en"
         },
@@ -125,7 +125,7 @@ The configuration file is in `json` format, for example:
         },
         "assets": {
             "/static/": "static",
-            "/get_started/assets/": "docs/get_started/assets"
+            "/Quecpython/assets/": "docs/Quecpython/assets"
         },
         "/blog/": "blog"
     },
@@ -163,14 +163,14 @@ The configuration file is in `json` format, for example:
 * `route`: Web page routing, including routing of documents, pages and resource files, such as routing of documents
 ```json
 "docs": {
-    "/get_started/zh/": "docs/get_started/zh",
-    "/get_started/en/": "docs/get_started/en",
+    "/Quecpython/zh/": "docs/Quecpython/zh",
+    "/Quecpython/en/": "docs/Quecpython/en",
     "/develop/zh/": "docs/develop/zh",
     "/develop/en/": "docs/develop/en"
 },
 ```
 The `key` represents the `url` of the document in the final generated website, and the following value is the corresponding source document path.
-For example, the source document `docs/get_started/zh/README.md` will generate the file `out/get_started/zh/index.html` after construction. If it is not a `md` file (ie unsupported file), it will be left intact Copy files automatically, and finally the `out` directory is the generated website
+For example, the source document `docs/Quecpython/zh/README.md` will generate the file `out/Quecpython/zh/index.html` after construction. If it is not a `md` file (ie unsupported file), it will be left intact Copy files automatically, and finally the `out` directory is the generated website
 
 The same is true for `pages`, `assets` will not perform document conversion and directly copy to the corresponding directory
 
@@ -184,7 +184,7 @@ The configuration items are determined by the specific plug-in. For example, `te
 
 ## config.json document configuration
 
-This is the configuration for each document, placed in the root directory of each document, such as `docs/get_started/zh/config.json`, each document is independent of each other, you can set the same to keep the website navigation bar consistent
+This is the configuration for each document, placed in the root directory of each document, such as `docs/Quecpython/zh/config.json`, each document is independent of each other, you can set the same to keep the website navigation bar consistent
 
 Here you can configure the navigation bar of each document and the content of the footer (`footer`), and you can also set the `config` item of the plug-in. The current document will override the configuration in `site_config.json` to achieve different Documents in different languages ​​(internationalization/i18n) or styles, etc.
 
@@ -202,7 +202,7 @@ such as:
         "home_url": "/",
         "items": [
             {
-                "url": "/get_started/zh/",
+                "url": "/Quecpython/zh/",
                 "label": "Installation and Use",
                 "position": "left"
             },
@@ -222,11 +222,11 @@ such as:
                 "position": "right",
                 "items": [
                     {
-                        "url": "/get_started/zh/",
+                        "url": "/Quecpython/zh/",
                         "label": "Chinese"
                     },
                     {
-                        "url": "/get_started/en/",
+                        "url": "/Quecpython/en/",
                         "label": "English"
                     }
                 ]
@@ -306,7 +306,7 @@ There is a directory for setting documents, one for each document, independent o
 
 The file path uses a relative path, just fill in the file name, `README.md` will be automatically converted to `index.html`
 
-In addition, you can also directly `url` without writing the path of `file`, such as `"url": "/get_started/zh"`, at the same time you can set `"target":"_blank"` to open in a new window. Current window open
+In addition, you can also directly `url` without writing the path of `file`, such as `"url": "/Quecpython/zh"`, at the same time you can set `"target":"_blank"` to open in a new window. Current window open
 
 such as:
 ```json
@@ -382,7 +382,7 @@ such as:
 
 You need to confirm in `site_config.json` that there is a `markdown` parsing plugin enabled, such as `teedoc-plugin-markdown-parser`.
 
-Create a folder or file in the directory corresponding to `config.json`, such as `get_started/README.md` (`README.md` will eventually generate `index.html`), and then write the content:
+Create a folder or file in the directory corresponding to `config.json`, such as `Quecpython/README.md` (`README.md` will eventually generate `index.html`), and then write the content:
 
 ### Markdown header
 
@@ -436,8 +436,8 @@ The file placed under the document directory, if it is a recognizable file, such
 
 ### The easiest and recommended way
 
-Resource files can be placed in the corresponding directory of the document, such as the document `docs/get_started/zh`, you can create `docs/get_started/zh/assets/images/logo.png`,
-Then use relative path references in `docs/get_started/zh/README.md`, namely `![](assets/images/logo.png)`
+Resource files can be placed in the corresponding directory of the document, such as the document `docs/Quecpython/zh`, you can create `docs/Quecpython/zh/assets/images/logo.png`,
+Then use relative path references in `docs/Quecpython/zh/README.md`, namely `![](assets/images/logo.png)`
 
 ### Advanced method
 
@@ -448,13 +448,13 @@ Use resources outside the document path, configure in `site_config.json`
 {
     "route": {
         "docs": {
-            "/get_started/zh/": "docs/get_started/zh",
+            "/Quecpython/zh/": "docs/Quecpython/zh",
         },
         "assets": {
-            "/get_started/assets/": "docs/get_started/assets"
+            "/Quecpython/assets/": "docs/Quecpython/assets"
         }
     }
 }
 ```
-This setting will copy the entire directory of `docs/get_started/assets` to `/get_started/assets`
-So only need to use relative path reference in `docs/get_started/zh/README.md`, namely `![](../assets/images/logo.png)`
+This setting will copy the entire directory of `docs/Quecpython/assets` to `/Quecpython/assets`
+So only need to use relative path reference in `docs/Quecpython/zh/README.md`, namely `![](../assets/images/logo.png)`

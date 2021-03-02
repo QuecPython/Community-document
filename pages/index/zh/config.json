@@ -8,7 +8,7 @@
         "home_url": "/",
         "items": [
             {
-                "url": "/get_started/zh/",
+                "url": "/Quecpython/zh/",
                 "label": "安装使用",
                 "position": "left"
             },

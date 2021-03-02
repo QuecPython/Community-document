@@ -14,7 +14,7 @@ desc: teedoc, convert markdown or jupyter notbook into html static webpage
     </div>
     <div id="big_btn_wrapper">
         <div class="big_btn">
-            <a href="/get_started/zh/">Get started</a>
+            <a href="/Quecpython/zh/">Get started</a>
         </div>
     </div>
 

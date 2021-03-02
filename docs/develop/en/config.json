@@ -8,7 +8,7 @@
         "home_url": "/en/",
         "items": [
             {
-                "url": "/get_started/en/",
+                "url": "/Quecpython/en/",
                 "label": "Install",
                 "position": "left"
             },

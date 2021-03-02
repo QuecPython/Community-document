@@ -52,7 +52,7 @@ teedoc -d /home/teedoc/my_doc build
 │  ├─develop
 │  │  ├─en
 │  │  └─zh
-│  └─get_started
+│  └─Quecpython
 │      ├─assets
 │      ├─en
 │      └─zh
@@ -114,8 +114,8 @@ teedoc -f ./config.json yaml2json
     "site_protocol": "https",
     "route": {
         "docs": {
-            "/get_started/zh/": "docs/get_started/zh",
-            "/get_started/en/": "docs/get_started/en",
+            "/Quecpython/zh/": "docs/Quecpython/zh",
+            "/Quecpython/en/": "docs/Quecpython/en",
             "/develop/zh/": "docs/develop/zh",
             "/develop/en/": "docs/develop/en"
         },
@@ -125,7 +125,7 @@ teedoc -f ./config.json yaml2json
         },
         "assets": {
             "/static/": "static",
-            "/get_started/assets/": "docs/get_started/assets"
+            "/Quecpython/assets/": "docs/Quecpython/assets"
         },
         "/blog/": "blog"
     },
@@ -163,14 +163,14 @@ teedoc -f ./config.json yaml2json
 * `route`: 网页路由，包含了文档和页面以及资源文件的路由，比如文档的路由
 ```json
 "docs": {
-    "/get_started/zh/": "docs/get_started/zh",
-    "/get_started/en/": "docs/get_started/en",
+    "/Quecpython/zh/": "docs/Quecpython/zh",
+    "/Quecpython/en/": "docs/Quecpython/en",
     "/develop/zh/": "docs/develop/zh",
     "/develop/en/": "docs/develop/en"
 },
 ```
 `key`代表了最终生成的网站中文档的`url`, 后面的值则是对应的源文档路径，
-比如源文档`docs/get_started/zh/README.md`，构建后会生成文件`out/get_started/zh/index.html`, 如果不是`md`文件（即不支持的文件），则会原封不动地拷贝文件，最后`out`目录就是生成的网站
+比如源文档`docs/Quecpython/zh/README.md`，构建后会生成文件`out/Quecpython/zh/index.html`, 如果不是`md`文件（即不支持的文件），则会原封不动地拷贝文件，最后`out`目录就是生成的网站
 
 `pages`同理，`assets`则不会进行文档转换，直接拷贝到相应的目录
 
@@ -184,7 +184,7 @@ teedoc -f ./config.json yaml2json
 
 ## config.json 文档配置
 
-这是针对每个文档的配置，放在每个文档的根目录， 比如`docs/get_started/zh/config.json`， 各个文档相互独立，可以设置一样的来保持网站导航栏一致
+这是针对每个文档的配置，放在每个文档的根目录， 比如`docs/Quecpython/zh/config.json`， 各个文档相互独立，可以设置一样的来保持网站导航栏一致
 
 在这里面可以配置每个文档的导航栏， 以及页尾（`footer`）的内容, 也可以设置插件的`config`项，在当前文档会覆盖`site_config.json`中的配置，从而实现不同文档不同语言（国际化/i18n）或者样式等
 
@@ -203,7 +203,7 @@ teedoc -f ./config.json yaml2json
         "home_url": "/",
         "items": [
             {
-                "url": "/get_started/zh/",
+                "url": "/Quecpython/zh/",
                 "label": "安装使用",
                 "position": "left"
             },
@@ -223,11 +223,11 @@ teedoc -f ./config.json yaml2json
                 "position": "right",
                 "items": [
                     {
-                        "url": "/get_started/zh/",
+                        "url": "/Quecpython/zh/",
                         "label": "中文"
                     },
                     {
-                        "url": "/get_started/en/",
+                        "url": "/Quecpython/en/",
                         "label": "English"
                     }
                 ]
@@ -307,7 +307,7 @@ teedoc -f ./config.json yaml2json
 
 文件路径使用相对路径，填文件名即可， `README.md` 会被自动转换成`index.html`
 
-另外也可以不写`file`路径，直接`url`， 比如`"url": "/get_started/zh"`, 同时可以设置`"target":"_blank"` 在新窗口打开，不设置则在当前窗口打开
+另外也可以不写`file`路径，直接`url`， 比如`"url": "/Quecpython/zh"`, 同时可以设置`"target":"_blank"` 在新窗口打开，不设置则在当前窗口打开
 
 比如：
 
@@ -384,7 +384,7 @@ teedoc -f ./config.json yaml2json
 
 需要先在`site_config.json`中确认有`markdown`解析插件启用了，比如`teedoc-plugin-markdown-parser`。
 
-在`config.json`对应的目录下建立文件夹或者文件， 比如`get_started/README.md` (`README.md`最终会生成`index.html`)， 然后编写内容：
+在`config.json`对应的目录下建立文件夹或者文件， 比如`Quecpython/README.md` (`README.md`最终会生成`index.html`)， 然后编写内容：
 
 ### Markdown 文件头
 
@@ -438,8 +438,8 @@ class: zh_readme
 
 ### 最简单和推荐的方法
 
-资源文件可以放在文档对应的目录，比如文档`docs/get_started/zh`， 可以创建`docs/get_started/zh/assets/images/logo.png`,
-然后在`docs/get_started/zh/README.md`中使用相对路径引用，即`![](assets/images/logo.png)`
+资源文件可以放在文档对应的目录，比如文档`docs/Quecpython/zh`， 可以创建`docs/Quecpython/zh/assets/images/logo.png`,
+然后在`docs/Quecpython/zh/README.md`中使用相对路径引用，即`![](assets/images/logo.png)`
 
 ### 进阶方法
 
@@ -450,16 +450,16 @@ class: zh_readme
 {
     "route": {
         "docs": {
-            "/get_started/zh/": "docs/get_started/zh",
+            "/Quecpython/zh/": "docs/Quecpython/zh",
         },
         "assets": {
-            "/get_started/assets/": "docs/get_started/assets"
+            "/Quecpython/assets/": "docs/Quecpython/assets"
         }
     }
 }
 ```
-这个设置会将`docs/get_started/assets`整个目录拷贝为`/get_started/assets`
-所以只需要在`docs/get_started/zh/README.md`中使用相对路径引用，即`![](../assets/images/logo.png)`
+这个设置会将`docs/Quecpython/assets`整个目录拷贝为`/Quecpython/assets`
+所以只需要在`docs/Quecpython/zh/README.md`中使用相对路径引用，即`![](../assets/images/logo.png)`
 
 
 

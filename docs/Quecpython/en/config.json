@@ -8,7 +8,7 @@
         "home_url": "/en/",
         "items": [
             {
-                "url": "/get_started/en/",
+                "url": "/Quecpython/en/",
                 "label": "Install",
                 "position": "left"
             },
@@ -28,11 +28,11 @@
                 "position": "right",
                 "items": [
                     {
-                        "url": "/get_started/zh/",
+                        "url": "/Quecpython/zh/",
                         "label": "中文"
                     },
                     {
-                        "url": "/get_started/en/",
+                        "url": "/Quecpython/en/",
                         "label": "English"
                     }
                 ]

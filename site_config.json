@@ -18,14 +18,7 @@
             "/": "pages/index/zh"
         },
         "assets": {
-            "/static/": "static",
-            "/Quecpython_intro/assets/": "docs/Quecpython_intro/assets",
-            "/Quick_start/assets/": "docs/Quick_start/assets",
-            "/little_demo/assets/": "docs/little_demo/assets",
-            "/Advanced_development/assets/": "docs/Advanced_development/assets",
-            "/Product_case/assets/": "docs/Product_case/assets",
-            "/Mass_production/assets/": "docs/Mass_production/assets",
-            "/FAQ/assets/": "docs/FAQ/assets"
+            "/static/": "static"
         },
         "/blog/": "blog"
     },

@@ -5,15 +5,15 @@
             "alt": "teedoc logo",
             "src": "/static/image/logo.png"
         },
-        "home_url": "/en/",
+        "home_url": "/zh/",
         "items": [
             {
-                "url": "/Quecpython/en/",
+                "url": "/Quecpython/zh/",
                 "label": "Install",
                 "position": "left"
             },
             {
-                "url": "/develop/en/",
+                "url": "/develop/zh/",
                 "label": "Develop",
                 "position": "left"
             },
@@ -32,7 +32,7 @@
                         "label": "中文"
                     },
                     {
-                        "url": "/en/",
+                        "url": "/zh/",
                         "label": "English"
                     }
                 ]

@@ -6,16 +6,26 @@
     "site_protocol": "https",
     "route": {
         "docs": {
-            "/Quecpython/zh/": "docs/Quecpython/zh",
-            "/Quecpython/en/": "docs/Quecpython/en"
+            "/Quecpython_intro/zh/": "docs/Quecpython_intro/zh",
+            "/Quick_start/zh/": "docs/Quick_start/zh",
+            "/little_demo/zh/": "docs/little_demo/zh",
+            "/Advanced_development/zh/": "docs/Advanced_development/zh",
+            "/Product_case/zh/": "docs/Product_case/zh",
+            "/Mass_production/zh/": "docs/Mass_production/zh",
+            "/FAQ/zh/": "docs/FAQ/zh"
         },
         "pages": {
-            "/": "pages/index/zh",
-            "/en/": "pages/index/en"
+            "/": "pages/index/zh"
         },
         "assets": {
             "/static/": "static",
-            "/Quecpython/assets/": "docs/Quecpython/assets"
+            "/Quecpython_intro/assets/": "docs/Quecpython_intro/assets",
+            "/Quick_start/assets/": "docs/Quick_start/assets",
+            "/little_demo/assets/": "docs/little_demo/assets",
+            "/Advanced_development/assets/": "docs/Advanced_development/assets",
+            "/Product_case/assets/": "docs/Product_case/assets",
+            "/Mass_production/assets/": "docs/Mass_production/assets",
+            "/FAQ/assets/": "docs/FAQ/assets"
         },
         "/blog/": "blog"
     },
@@ -24,24 +34,24 @@
         "pip": "pip3"
     },
     "plugins": {
-        "teedoc-plugin-markdown-parser":{
+        "teedoc-plugin-markdown-parser": {
             "from": "pypi",
             "config": {
                 "toc_depth": 3
             }
         },
-        "teedoc-plugin-theme-default":{
+        "teedoc-plugin-theme-default": {
             "from": "pypi",
             "config": {
                 "dark": true,
-                "env":{
+                "env": {
                     "main_color": "#4caf7d"
                 },
                 "css": "/static/css/custom.css",
                 "js": "/static/js/custom.js"
             }
         },
-        "teedoc-plugin-search":{
+        "teedoc-plugin-search": {
             "from": "pypi",
             "config": {
                 "search_hint": "Search"
@@ -49,7 +59,7 @@
         }
     },
     "rebuild_changes_delay": 0,
-    "robots":{
+    "robots": {
         "User-agent": "*"
     }
 }

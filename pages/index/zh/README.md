@@ -19,7 +19,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
             <a href="/Quick_start/zh/">快速开始</a>
         </div>
         <div class="big_btn">
-            <a href="/QuecPythonTest/zh/">小实验</a>
+            <a href="/QuecPythonTest/zh/">&nbsp;小实验&nbsp;&nbsp;</a>
         </div>
     </div>
     <div id="big_btn_wrapper">

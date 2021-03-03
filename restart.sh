@@ -15,13 +15,24 @@ function teedoc_build() {
 function restart() {
     kill_teedoc
     rm -rf out
-    teedoc_build 
     teedoc_build
     teedoc serve &
 }
 
 function start() {
     teedoc serve &
+}
+
+function teedoc_release() {
+    # 检查是否存在 out文件
+    release_filename=Community-document-$(date "+%Y%m%d-%H%M")
+    if [ ! -d "out" ]; then
+       teedoc_build
+    fi
+    tar cf ${release_filename}.tar  out
+    tar jcf ${release_filename}.tar.bz2 ${release_filename}.tar 
+    rm -rf ${release_filename}.tar
+    mv ${release_filename}.tar.bz2 ..
 }
 
 case $1 in
@@ -43,7 +54,18 @@ case $1 in
 "-h")
     usage
     ;;
+"release")
+    teedoc_release
+    ;;
 *)
-    restart
+    if [ $# = 0 ]; then
+    # 没有参数，默认restart
+        restart
+    else
+    # 错误的参数
+        echo "ERROR: $0 $1  错误的参数"
+        usage
+        exit -1
+    fi
     ;;
 esac

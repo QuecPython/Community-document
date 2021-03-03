@@ -1,0 +1,41 @@
+items:
+-   label: 小实验简介
+    file: README.md
+-   label: 总线
+    items:
+    -   label: QuecPython 跑马灯实验
+        file: QuecPythonTest/LED.md
+    -   label: QuecPython 蜂鸣器实验
+        file: QuecPythonTest/buzzer.md
+    -   label: QuecPython 按键输入实验
+        file: QuecPythonTest/button.md
+    -   label: QuecPython 串口实验
+        file: QuecPythonTest/uart.md
+    -   label: QuecPython 外部中断实验
+        file: QuecPythonTest/External_interrupt.md
+    -   label: QuecPython 独立看门狗实验
+        file: QuecPythonTest/WDT.md
+    -   label: QuecPython PWM 输出实验
+        file: QuecPythonTest/PWM.md
+    -   label: QuecPython 待机唤醒实验
+        file: QuecPythonTest/PM.md
+    -   label: QuecPython RTC 实验
+        file: QuecPythonTest/RTC.md
+    -   label: QuecPython ADC 实验
+        file: QuecPythonTest/ADC.md
+    -   label: QuecPython IIC 实验
+        file: QuecPythonTest/IIC.md
+    -   label: QuecPython 录音实验
+        file: QuecPythonTest/record.md
+-   label: 传感器
+    items:
+    -   label: QuecPython 内部温度传感器实验
+        file: QuecPythonTest/i2c_aht.md
+    -   label: QuecPython 光敏传感器实验
+        file: QuecPythonTest/Photoresistor.md
+    -   label: QuecPython 加速度传感器
+        file: QuecPythonTest/i2c_lis2dh.md
+    -   label: QuecPython 步进电机驱动实验
+        file: QuecPythonTest/ebf_smd4805.md
+    -   label: QuecPython 继电器实验
+        file: QuecPythonTest/relay.md

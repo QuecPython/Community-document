@@ -1,0 +1,99 @@
+{
+    "class": "language_zh",
+    "navbar": {
+        "title": "teedoc",
+        "logo": {
+            "alt": "teedoc logo",
+            "src": "/static/image/logo.png"
+        },
+        "home_url": "/",
+        "items": [
+            {
+                "url": "https://python.quectel.com/wiki/#/",
+                "label": "wiki",
+                "position": "left"
+            },
+            {
+                "label": "文档: ",
+                "position": "left",
+                "items": [
+                    {
+                        "url": "/Quecpython_intro/zh/",
+                        "label": "产品介绍"
+                    },
+                    {
+                        "url": "/Quick_start/zh/",
+                        "label": "快速开始"
+                    },
+                    {
+                        "url": "/little_demo/zh/",
+                        "label": "小实验"
+                    },
+                    {
+                        "url": "/Advanced_development/zh/",
+                        "label": "开发进阶"
+                    },
+                    {
+                        "url": "/Mass_production/zh/",
+                        "label": "产品案例"
+                    },
+                    {
+                        "url": "/FAQ/zh/",
+                        "label": "常见问题"
+                    }
+                ]
+            },
+            {
+                "label": "github",
+                "position": "right",
+                "url": "https://github.com/quecpython/wiki"
+            }
+        ]
+    },
+    "footer": {
+        "top": [
+            {
+                "label": "链接",
+                "items": [
+                    {
+                        "label": "使用 teedoc 构建",
+                        "url": "https://github.com/neutree/teedoc",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "Copyright © 2021 Neucrack",
+                        "url": "https://neucrack.com",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            {
+                "label": "源码",
+                "items": [
+                    {
+                        "label": "github",
+                        "url": "https://github.com/neutree/teedoc",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "本网站源文件",
+                        "url": "https://github.com/teedoc/teedoc.github.io",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "label": "*ICP备********号-1",
+                "url": "https://beian.miit.gov.cn",
+                "target": "_blank"
+            },
+            {
+                "label": "*公网安备**************号",
+                "url": "https://beian.miit.gov.cn/#/Integrated/index",
+                "target": "_blank"
+            }
+        ]
+    }
+}

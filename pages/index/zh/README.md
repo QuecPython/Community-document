@@ -33,6 +33,11 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
             <a href="/FAQ/zh/">常见问题</a>
         </div> 
     </div>
+    <div id="big_btn_wrapper">
+        <div class="big_btn">
+            <a href="/Development_env_tools/zh/">开发环境</a>
+        </div>
+    </div>
 
 </div>
 

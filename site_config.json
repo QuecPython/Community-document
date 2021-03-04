@@ -6,13 +6,14 @@
     "site_protocol": "https",
     "route": {
         "docs": {
-            "/Quecpython_intro/zh/": "docs/Quecpython_intro/zh",
-            "/Quick_start/zh/": "docs/Quick_start/zh",
-            "/little_demo/zh/": "docs/little_demo/zh",
-            "/Advanced_development/zh/": "docs/Advanced_development/zh",
-            "/Product_case/zh/": "docs/Product_case/zh",
-            "/Mass_production/zh/": "docs/Mass_production/zh",
-            "/FAQ/zh/": "docs/FAQ/zh"
+            "/Quecpython_intro/zh": "docs/Quecpython_intro/zh",
+            "/Development_env_tools/zh": "docs/Development_env_tools/zh",
+            "/Quick_start/zh": "docs/Quick_start/zh",
+            "/little_demo/zh": "docs/little_demo/zh",
+            "/Advanced_development/zh": "docs/Advanced_development/zh",
+            "/Product_case/zh": "docs/Product_case/zh",
+            "/Mass_production/zh": "docs/Mass_production/zh",
+            "/FAQ/zh": "docs/FAQ/zh"
         },
         "pages": {
             "/": "pages/index/zh"

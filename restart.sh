@@ -25,6 +25,8 @@ function start() {
 function creat_toc() {
     # 读取所有的 sidebar.yml 生成目录
     echo "生成目录"
+    python3 auto_creat_toc.py --out_file Quecpython_toc.yml --input_file docs/Quecpython_intro/zh/config.json --action toc
+
 }
 
 function teedoc_release() {

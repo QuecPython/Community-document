@@ -1,3 +1,5 @@
 items:
     - label: FAQ&快速问答
       file: README.md
+    - label: 参与贡献
+      file: join_us/README.md

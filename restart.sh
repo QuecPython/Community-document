@@ -13,8 +13,8 @@ function teedoc_build() {
 }
 
 function restart() {
-    kill_teedoc
     teedoc_build
+    kill_teedoc
     teedoc serve &
 }
 

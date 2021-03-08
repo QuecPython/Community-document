@@ -8,8 +8,8 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
 
 <div id="home_page">
     <div>
-        <h1><span>Quecpython</span></h1>
-        <h3>Quecpython 文档中心/让开发更迅速</h3>
+        <h1><span>QuecPython</span></h1>
+        <h3>QuecPython 文档中心/让开发更迅速</h3>
     </div>
     <div id="big_btn_wrapper">
         <div class="big_btn">

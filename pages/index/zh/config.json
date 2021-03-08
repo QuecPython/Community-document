@@ -1,7 +1,7 @@
 {
     "class": "language_zh",
     "navbar": {
-        "title": "Quecpython",
+        "title": "QuecPython",
         "logo": {
             "alt": "teedoc logo",
             "src": "/static/image/quectel.png"

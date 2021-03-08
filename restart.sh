@@ -41,6 +41,10 @@ function teedoc_release() {
     mv ${release_filename}.tar.bz2 ..
 }
 
+function copy_file() {
+    python3 auto_creat_toc.py --input_file docs/Quecpython_intro/zh/config.json --action copy
+}
+
 case $1 in
 "start")
     start
@@ -66,6 +70,10 @@ case $1 in
 "toc")
     # 生成目录
     creat_toc
+    ;;
+"copy")
+    # 覆盖相同的文档
+    copy_file
     ;;
 *)
     if [ $# = 0 ]; then

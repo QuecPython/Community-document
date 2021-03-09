@@ -1,7 +1,7 @@
 {
     "class": "language_zh",
     "navbar": {
-        "title": "Quecpython",
+        "title": "QuecPython",
         "logo": {
             "alt": "teedoc logo",
             "src": "/static/image/quectel.png"
@@ -14,12 +14,16 @@
                 "position": "left"
             },
             {
-                "label": "文档  ",
+                "label": "&nbsp;&nbsp;&nbsp;&nbsp;文档&nbsp;&nbsp;&nbsp;&nbsp;",
                 "position": "left",
                 "items": [
                     {
                         "url": "/Quecpython_intro/zh/",
                         "label": "产品介绍"
+                    },
+                    {
+                        "url": "/Development_env_tools/zh/",
+                        "label": "开发环境"
                     },
                     {
                         "url": "/Quick_start/zh/",

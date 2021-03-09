@@ -1,18 +1,19 @@
 {
-    "site_name": "Quecpython",
+    "site_name": "QuecPython",
     "site_slogon": "让开发更迅速",
     "site_root_url": "/",
     "site_domain": "github.com/quecpython/wiki",
     "site_protocol": "https",
     "route": {
         "docs": {
-            "/Quecpython_intro/zh/": "docs/Quecpython_intro/zh",
-            "/Quick_start/zh/": "docs/Quick_start/zh",
-            "/little_demo/zh/": "docs/little_demo/zh",
-            "/Advanced_development/zh/": "docs/Advanced_development/zh",
-            "/Product_case/zh/": "docs/Product_case/zh",
-            "/Mass_production/zh/": "docs/Mass_production/zh",
-            "/FAQ/zh/": "docs/FAQ/zh"
+            "/Quecpython_intro/zh": "docs/Quecpython_intro/zh",
+            "/Development_env_tools/zh": "docs/Development_env_tools/zh",
+            "/Quick_start/zh": "docs/Quick_start/zh",
+            "/little_demo/zh": "docs/little_demo/zh",
+            "/Advanced_development/zh": "docs/Advanced_development/zh",
+            "/Product_case/zh": "docs/Product_case/zh",
+            "/Mass_production/zh": "docs/Mass_production/zh",
+            "/FAQ/zh": "docs/FAQ/zh"
         },
         "pages": {
             "/": "pages/index/zh"
@@ -38,7 +39,7 @@
             "config": {
                 "dark": true,
                 "env": {
-                    "main_color": "#4caf7d"
+                    "main_color": "#DC143C"
                 },
                 "css": "/static/css/custom.css",
                 "js": "/static/js/custom.js"

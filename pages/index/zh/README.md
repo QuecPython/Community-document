@@ -8,8 +8,8 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
 
 <div id="home_page">
     <div>
-        <h1><span>Quecpython</span></h1>
-        <h3>Quecpython 文档中心/让开发更迅速</h3>
+        <h1><span>QuecPython</span></h1>
+        <h3>QuecPython 文档中心/让开发更迅速</h3>
     </div>
     <div id="big_btn_wrapper">
         <div class="big_btn">
@@ -19,7 +19,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
             <a href="/Quick_start/zh/">快速开始</a>
         </div>
         <div class="big_btn">
-            <a href="/QuecPythonTest/zh/">小实验</a>
+            <a href="/QuecPythonTest/zh/">&nbsp;小实验&nbsp;&nbsp;</a>
         </div>
     </div>
     <div id="big_btn_wrapper">
@@ -32,6 +32,11 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
         <div class="big_btn">
             <a href="/FAQ/zh/">常见问题</a>
         </div> 
+    </div>
+    <div id="big_btn_wrapper">
+        <div class="big_btn">
+            <a href="/Development_env_tools/zh/">开发环境</a>
+        </div>
     </div>
 
 </div>

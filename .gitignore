@@ -9,3 +9,5 @@ Makefile
 _sidebar.md
 _navbar.md
 .vscode
+test*
+Quecpython_toc.yml

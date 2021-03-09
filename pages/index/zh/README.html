@@ -67,7 +67,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
           </div>
           <div class="ui card">
             <a class="image bg-white" href="/Advanced_development/zh/" style="padding:19px;">
-              <img src="https://cdn.learnku.com/uploads/images/201901/29/1/RNRImOK6Ki.png!/both/300x300" width="150" height="150">
+              <img src="/static/image/pages_image/RNRImOK6Ki.png" width="150" height="150">
             </a>
             <div class="content ">
               <!-- <a class="fw-bold rm-link-color fs-normal" href="/Advanced_development/zh/">Quecpython 开发进阶</a> -->

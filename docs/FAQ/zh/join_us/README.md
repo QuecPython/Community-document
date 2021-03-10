@@ -76,7 +76,9 @@ git 属于命令行工具， 不宜使用。 推荐使用git 的gui工具 **Sour
 https://github.com/quecpython/Community-document
 ```
 
-首先请注册[GitHub](https://github.com/)账号 , fork  [quecpython/Community-document (github.com)](https://github.com/quecpython/Community-document)仓库。  具体请参考 [Fork 一个仓库 - 简书 (jianshu.com)](https://www.jianshu.com/p/7935afee30e8)
+1. 首先请注册[GitHub](https://github.com/)账号 。
+2. 然后请使用注册的账号，fork  [quecpython/Community-document (github.com)](https://github.com/quecpython/Community-document)仓库。
+   具体请参考 [Fork 一个仓库 - 简书 (jianshu.com)](https://www.jianshu.com/p/7935afee30e8)
 
 
 

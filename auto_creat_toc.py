@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 # -*-coding: UTF-8 -*-
-# 计划此脚本读取 docs/Quick_start/zh/config.json 文件
-# 的 "文档: " 的value ， 然后自动生成目录
 
 import argparse
 from argparse import RawTextHelpFormatter
@@ -9,6 +7,9 @@ import sys
 from loguru import logger
 import os
 import yaml
+import subprocess
+import fnmatch
+import glob
 
 
 def find_file(dir_path, filename):
@@ -52,6 +53,13 @@ def creat_toc(args):
     pass
 
 
+def copy_file(args):
+    for f_path in glob.iglob('docs/**/' + os.path.basename(args.input_file),
+                             recursive=True):
+        # logger.debug("复制 {0} 到 {1}".format(args.input_file, f_path))
+        subprocess.run(["cp", args.input_file, f_path, "-v"])
+
+
 # 找到所有的 sidebar.yaml
 def main(argv):
     parser = argparse.ArgumentParser(description="自动生成目录",
@@ -85,7 +93,7 @@ def main(argv):
     if args.action == "toc":
         creat_toc(args)
     elif args.action == "copy":
-        logger.error("此功能等待完善")
+        copy_file(args)
 
 
 if __name__ == "__main__":

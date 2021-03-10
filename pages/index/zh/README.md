@@ -54,12 +54,12 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
             </div>
           </div>
           <div class="ui card">
-            <a class="image bg-white" href="/QuecPythonTest/zh/" style="padding:19px;">
+            <a class="image bg-white" href="/little_demo/zh/" style="padding:19px;">
               <img src="https://cdn.learnku.com/uploads/images/201901/29/1/DCebDQUdw9.png!/both/300x300" width="150" height="150">
             </a>
             <div class="content ">
-              <!-- <a class="fw-bold rm-link-color fs-normal" href="/QuecPythonTest/zh/">Quecpyton 小实验</a> -->
-              <a class="fw-bold rm-link-color fs-normal" href="/QuecPythonTest/zh/" style="padding:19px;"><strong>Quecpyton小实验</strong></a>
+              <!-- <a class="fw-bold rm-link-color fs-normal" href="/little_demo/zh/">Quecpyton 小实验</a> -->
+              <a class="fw-bold rm-link-color fs-normal" href="/little_demo/zh/" style="padding:19px;"><strong>Quecpyton小实验</strong></a>
               <div class="meta">
                 <i class="icon flag"></i>
               </div>

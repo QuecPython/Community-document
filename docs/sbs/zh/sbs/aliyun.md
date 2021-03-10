@@ -1,4 +1,4 @@
-### 接入阿里云应用 开发指导
+## 接入阿里云应用 开发指导
 
 阿里云物联网平台介绍
 
@@ -6,29 +6,29 @@
 
 阿里云物联网平台文档：<https://help.aliyun.com/product/30520.html>[。](https://help.aliyun.com/product/30520.html)开发者可以登录该网址进一步了解该物联网平台及设备接入相关知识。
 
-#### 阿里云物联网平台关键的名词解释
+## 阿里云物联网平台关键的名词解释
 
 如下表格中简单介绍了阿里云物联网平台中关键的名词解释，详细信息可参考阿里云官方文档（URL：
 <https://help.aliyun.com/document_detail/30524.html>[）](https://help.aliyun.com/document_detail/30524.html)。
 
 >   表 **1**：关键名词解释
 
-| 关键名词      | 名词解释                                                     |
-| ------------- | ------------------------------------------------------------ |
-| 产品          | 设备的集合，通常指一组具有相同功能的设备。物联网平台为每个产品颁发全局唯一的 ProductKey。 |
-| 设备          | 归属于某个产品下的具体设备。物联网平台为设备颁发产品内唯一的证书 DeviceName。设备可以直接连接物联网平台，也可以作为子设备通过网关连接物联网平台。 |
-| 子设备        | 本质上也是设备。子设备不能直接连接物联网平台，只能通过网关连接。 |
-| 网关          | 能够直接连接物联网平台的设备，且具有子设备管理功能，能够代理子设备连接云端。 |
+| 关键名词      | 名词解释                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 产品          | 设备的集合，通常指一组具有相同功能的设备。物联网平台为每个产品颁发全局唯一的 ProductKey。                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 设备          | 归属于某个产品下的具体设备。物联网平台为设备颁发产品内唯一的证书 DeviceName。设备可以直接连接物联网平台，也可以作为子设备通过网关连接物联网平台。                                                                                                                                                                                                                                                                                                                                          |
+| 子设备        | 本质上也是设备。子设备不能直接连接物联网平台，只能通过网关连接。                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 网关          | 能够直接连接物联网平台的设备，且具有子设备管理功能，能够代理子设备连接云端。                                                                                                                                                                                                                                                                                                                                                                                                               |
 | 设备证书      | 设备证书指 ProductKey、DeviceName、DeviceSecret 的组合，用于设备认证以及建立连接。 ProductKey：物联网平台为产品颁发的全局唯一标识。该参数很重要，在设备认证以及通信中都会用到，因此需要您保管好。 DeviceName：在注册设备时，自定义的或系统生成的设备名称，具备产品维度内的唯一性。该参数很重要，在设备认证以及通信中都会用到，因此需要您保管好。  DeviceSecret：物联网平台为设备颁发的设备密钥，和 DeviceName 成对出现。 该参数很重要，在设备认证时会用到，因此需要您保管好并且不能泄露。 |
-| ProductSecret | 由物联网平台颁发的产品密钥，通常与 ProductKey 成对出现，用于一型一密的认证方案。该参数很重要，需要您保管好，不能泄露。 |
-| 一机一密      | 每个设备烧录其唯一的设备证书（ProductKey、DeviceName 和 DeviceSecret）。当设备与物联网平台建立连接时，物联网平台对其携带的设备证书信息进行认证。 |
-| 一型一密      | 同一产品下所有设备可以烧录相同的 ProductKey 和 ProductSecret。设备发送激活 请求时，物联网平台对其携带的 ProductKey 和 ProductSecret 进行认证，认证通过，下发该设备接入所需信息。设备再携带这些信息与物联网平台建立连接。 |
-| 设备 ID²认证  | ID²（Internet Device ID）是一种物联网设备的可信身份标识，具备不可篡改、不可伪造、全球唯一等安全属性。物联网平台支持设备使用 ID²进行身份认证。 |
-| Topic         | Topic 是 UTF-8 字符串，是设备发布（Pub）、订阅（Sub）消息的传输中介。 发布：设备可以往该 Topic 发布消息。 订阅：设备可以订阅该 Topic 获取消息。 |
-| 规则引擎      | 通过创建、配置规则，以实现服务端订阅、数据流转和场景联动。   |
-| 物模型        | 是对设备在云端的功能描述，包括设备的属性、服务和事件。物联网平台通过定义一种物的描述语言来描述物模型，称之为 TSL（即 Thing Specification Language），采用 JSON 格式，开发者可以根据 TSL 组装上报设备的数据。 |
+| ProductSecret | 由物联网平台颁发的产品密钥，通常与 ProductKey 成对出现，用于一型一密的认证方案。该参数很重要，需要您保管好，不能泄露。                                                                                                                                                                                                                                                                                                                                                                     |
+| 一机一密      | 每个设备烧录其唯一的设备证书（ProductKey、DeviceName 和 DeviceSecret）。当设备与物联网平台建立连接时，物联网平台对其携带的设备证书信息进行认证。                                                                                                                                                                                                                                                                                                                                           |
+| 一型一密      | 同一产品下所有设备可以烧录相同的 ProductKey 和 ProductSecret。设备发送激活 请求时，物联网平台对其携带的 ProductKey 和 ProductSecret 进行认证，认证通过，下发该设备接入所需信息。设备再携带这些信息与物联网平台建立连接。                                                                                                                                                                                                                                                                   |
+| 设备 ID²认证  | ID²（Internet Device ID）是一种物联网设备的可信身份标识，具备不可篡改、不可伪造、全球唯一等安全属性。物联网平台支持设备使用 ID²进行身份认证。                                                                                                                                                                                                                                                                                                                                              |
+| Topic         | Topic 是 UTF-8 字符串，是设备发布（Pub）、订阅（Sub）消息的传输中介。 发布：设备可以往该 Topic 发布消息。 订阅：设备可以订阅该 Topic 获取消息。                                                                                                                                                                                                                                                                                                                                            |
+| 规则引擎      | 通过创建、配置规则，以实现服务端订阅、数据流转和场景联动。                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 物模型        | 是对设备在云端的功能描述，包括设备的属性、服务和事件。物联网平台通过定义一种物的描述语言来描述物模型，称之为 TSL（即 Thing Specification Language），采用 JSON 格式，开发者可以根据 TSL 组装上报设备的数据。                                                                                                                                                                                                                                                                               |
 
-#### 阿里云接口详解
+## 阿里云接口详解
 
 **aLiYun**
 
@@ -154,7 +154,7 @@ aLiYun(productKey, productSecret, DeviceName, DeviceSecret)
 
   无
 
-#### 使用 QuecPython 连接阿里云
+## 使用 QuecPython 连接阿里云
 
 创建产品与设备
 
@@ -230,12 +230,12 @@ aLiYun(productKey, productSecret, DeviceName, DeviceSecret)
 
 -   参见地域和可用区，将*${YourRegionId}*替换为自定义的 Region ID。
 
-| Broker Port | 1883                                                         |
-| ----------- | ------------------------------------------------------------ |
-| Client ID   | 填写 mqttClientId，用于 MQTT 的底层协议报文。格式固定：${clientId} |
-|             | MAC 地址或 SN 码。 *securemode* 为安全模式，TCP 直连模式设置为 *securemode=3*，TLS 直连为 *securemode=2*。 *signmethod* 为算法类型，支持 hmacmd5 和 hmacsha1。 |
-| General     | General 栏目下的设置项可保持系统默认，也可以根据具体需求设置。 |
-| User Name   | 由设备名 DeviceName、符号（&）和产品 ProductKey 组成。固定格式：${YourDeviceName}&${YourProductKey}。完整示例如：device&alxxxxxxxxx。 |
+| Broker Port | 1883                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Client ID   | 填写 mqttClientId，用于 MQTT 的底层协议报文。格式固定：${clientId}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|             | MAC 地址或 SN 码。 *securemode* 为安全模式，TCP 直连模式设置为 *securemode=3*，TLS 直连为 *securemode=2*。 *signmethod* 为算法类型，支持 hmacmd5 和 hmacsha1。                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| General     | General 栏目下的设置项可保持系统默认，也可以根据具体需求设置。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| User Name   | 由设备名 DeviceName、符号（&）和产品 ProductKey 组成。固定格式：${YourDeviceName}&${YourProductKey}。完整示例如：device&alxxxxxxxxx。                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | Password    | 下载 Password 生成小工具。 进入 <https://files.alicdn.com/tpsservice/88413c66e471bec826257781969d1bc7.zip> [解](https://files.alicdn.com/tpsservice/88413c66e471bec826257781969d1bc7.zip)压缩下载包后，双击 *sign* 文件，即可使用。使用 Password 生成小工具的输入参数：  productKey：设备所属产品 Key。可在控制台设备详情页查看。 deviceName：设备名称。可在控制台设备详情页查看。 deviceSecret：设备密钥。可在控制台设备详情页查看。 timestamp：（可选）时间戳。 clientId：设备的 ID 信息，与 Client ID 中*${clientId}*一致。 method：选择签名算法类型，与 Client ID 中 *signmethod* 确定的加密方法一致 |
 
 >   备注
@@ -365,7 +365,7 @@ aLiYun(productKey, productSecret, DeviceName, DeviceSecret)
 
 ![](media/70658f75cc3656d9613fb7be881895ab.jpg)
 
-#### 附录 A 参考文档及术语缩写
+## 附录 A 参考文档及术语缩写
 
 >   参考文档
 
@@ -373,16 +373,16 @@ Quectel_QuecPython_基础操作说明 QuecPython 上传下载文件说明
 
 >   表 **4**：术语缩写
 
-| 术语 | 英文全称 中文全称                                            |                          |
-| ---- | ------------------------------------------------------------ | ------------------------ |
-| API  | Application Programming Interface 应用程序编程接口           |                          |
+| 术语 | 英文全称 中文全称                                                     |                          |
+| ---- | --------------------------------------------------------------------- | ------------------------ |
+| API  | Application Programming Interface 应用程序编程接口                    |                          |
 | ID   | Mostly refers to Identifier in terms of 软件中多数指“标识符” software |                          |
-| ID²  | Internet Device ID                                           | 物联网设备的可信身份标识 |
-| IoT  | Internet of Things                                           | 物联网                   |
-| MAC  | Medium Access Control                                        | 媒体访问控制             |
-| MQTT | Message Queuing Telemetry Transport                          | 消息队列遥测传输         |
-| SN   | Serial Number                                                | 序列号                   |
-| TCP  | Transmission Control Protocol                                | 传输控制协议             |
-| TLS  | Transport Layer Security                                     | 传输层安全（协议）       |
-| TSL  | Thing Specification Language                                 | 物模型                   |
+| ID²  | Internet Device ID                                                    | 物联网设备的可信身份标识 |
+| IoT  | Internet of Things                                                    | 物联网                   |
+| MAC  | Medium Access Control                                                 | 媒体访问控制             |
+| MQTT | Message Queuing Telemetry Transport                                   | 消息队列遥测传输         |
+| SN   | Serial Number                                                         | 序列号                   |
+| TCP  | Transmission Control Protocol                                         | 传输控制协议             |
+| TLS  | Transport Layer Security                                              | 传输层安全（协议）       |
+| TSL  | Thing Specification Language                                          | 物模型                   |
 

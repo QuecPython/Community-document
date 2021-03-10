@@ -32,10 +32,8 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
-                                    Creative Control
                                 </h2>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.</p>
+                                <p>讲解QUecpython由来，发展，技术特性，以及技术支持资等</p>
                             </div>
                         </div>
                     </figcaption>
@@ -57,10 +55,10 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
-                                    Creative Control
                                 </h2>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.</p>
+                                <p>Quecpython 开发环境搭建
+                                    Quecpyton Hello World & Quecpython 获取百度网址
+                                </p>
                             </div>
                         </div>
                     </figcaption>
@@ -82,10 +80,8 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
-                                    Creative Control
                                 </h2>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.</p>
+                                <p>mqtt 连接 阿里云服务器，ntp，stp，网络应用编程等应用开发</p>
                             </div>
                         </div>
                     </figcaption>
@@ -110,10 +106,8 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
-                                    Creative Control
                                 </h2>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.</p>
+                                <p>板载外设 温度传感器 加速度传感器 LCD 光敏传感器 等板载外设开发</p>
                             </div>
                         </div>
                     </figcaption>
@@ -135,10 +129,8 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
-                                    Creative Control
                                 </h2>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.</p>
+                                <p>驱动子系统 总线接口 云平台 总线接口</p>
                             </div>
                         </div>
                     </figcaption>
@@ -160,10 +152,8 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
-                                    Creative Control
                                 </h2>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.</p>
+                                <p>产品量产方案</p>
                             </div>
                         </div>
                     </figcaption>
@@ -188,10 +178,10 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
-                                    Creative Control
+                                    常见问题， 刷砖救砖，文档系统编写规范,
+                                    参与文档贡献流程，提交文档错误流程。
                                 </h2>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.</p>
+                                <p></p>
                             </div>
                         </div>
                     </figcaption>

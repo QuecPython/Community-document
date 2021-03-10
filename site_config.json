@@ -13,7 +13,8 @@
             "/Advanced_development/zh": "docs/Advanced_development/zh",
             "/Product_case/zh": "docs/Product_case/zh",
             "/Mass_production/zh": "docs/Mass_production/zh",
-            "/FAQ/zh": "docs/FAQ/zh"
+            "/FAQ/zh": "docs/FAQ/zh",
+            "/sbs/zh": "docs/sbs/zh"
         },
         "pages": {
             "/": "pages/index/zh"

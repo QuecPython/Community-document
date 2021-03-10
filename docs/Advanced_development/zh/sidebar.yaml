@@ -15,16 +15,6 @@ items:
         file: QuecPythonSub/ADC.md
       - label: QuecPython SPI总线开发
         file: QuecPythonSub/SPI.md
-  - label: 网络应用
-    items:
-      - label: QuecPython Socket编程
-        file: sbs/socket.md
-      - label: QuecPython MQTT客户端开发
-        file: sbs/mqtt.md
-      - label: QuecPython HTTP客户端开发
-        file: sbs/http.md
-      - label: QuecPython NTP应用开发
-        file: sbs/ntp.md
   - label: 无线联网
     file: QuecPythonWirelessNetwork/README.md
   - label: 云平台

@@ -32,10 +32,8 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
-                                    Creative Control
                                 </h2>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.</p>
+                                <p>讲解QUecpython由来，发展，技术特性，以及技术支持资等</p>
                             </div>
                         </div>
                     </figcaption>
@@ -48,7 +46,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <p class="article-p-t">最新：2021-03-31</font>
                 </p>
             </div>
-            <!-- Quecpyton开发环境-->
+            <!-- Quecpyton快速开始-->
             <div class="col-item">
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
@@ -57,35 +55,10 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
-                                    Creative Control
                                 </h2>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.</p>
-                            </div>
-                        </div>
-                    </figcaption>
-                </figure>
-                <a href="/Development_env_tools/zh/" class="article-a">
-                    <p class="article-p-h">Quecpyton开发环境</p>
-                </a>
-                <p class="article-p-t">Quecpyton开发环境</font>
-                </p>
-                <p class="article-p-t">最新：2021-03-31</font>
-                </p>
-            </div>
-            <!-- Quecpyton快速开始-->
-            <div class="col-item">
-                <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
-                    style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
-                    <img src="assets/images/image03.jpg" alt="Sample Image" />
-                    <figcaption class="c4-layout-top-left">
-                        <div class="c4-reveal-down">
-                            <div>
-                                <h2 style="margin-bottom: 5px;">
-                                    Creative Control
-                                </h2>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.</p>
+                                <p>Quecpython 开发环境搭建
+                                    Quecpyton Hello World & Quecpython 获取百度网址
+                                </p>
                             </div>
                         </div>
                     </figcaption>
@@ -94,6 +67,29 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                     <p class="article-p-h">Quecpyton快速开始</p>
                 </a>
                 <p class="article-p-t">Quecpyton快速开始</font>
+                </p>
+                <p class="article-p-t">最新：2021-03-31</font>
+                </p>
+            </div>
+            <!-- Quecpyton手把手教学-->
+            <div class="col-item">
+                <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
+                    style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
+                    <img src="assets/images/image03.jpg" alt="Sample Image" />
+                    <figcaption class="c4-layout-top-left">
+                        <div class="c4-reveal-down">
+                            <div>
+                                <h2 style="margin-bottom: 5px;">
+                                </h2>
+                                <p>mqtt 连接 阿里云服务器，ntp，stp，网络应用编程等应用开发</p>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <a href="/sbs/zh/" class="article-a">
+                    <p class="article-p-h">Quecpyton手把手教学</p>
+                </a>
+                <p class="article-p-t">Quecpyton手把手教学</font>
                 </p>
                 <p class="article-p-t">最新：2021-03-31</font>
                 </p>
@@ -110,10 +106,8 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
-                                    Creative Control
                                 </h2>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.</p>
+                                <p>板载外设 温度传感器 加速度传感器 LCD 光敏传感器 等板载外设开发</p>
                             </div>
                         </div>
                     </figcaption>
@@ -135,10 +129,8 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
-                                    Creative Control
                                 </h2>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.</p>
+                                <p>驱动子系统 总线接口 云平台 总线接口</p>
                             </div>
                         </div>
                     </figcaption>
@@ -160,10 +152,8 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
-                                    Creative Control
                                 </h2>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.</p>
+                                <p>产品量产方案</p>
                             </div>
                         </div>
                     </figcaption>
@@ -188,18 +178,18 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
-                                    Creative Control
+                                    常见问题， 刷砖救砖，文档系统编写规范,
+                                    参与文档贡献流程，提交文档错误流程。
                                 </h2>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.</p>
+                                <p></p>
                             </div>
                         </div>
                     </figcaption>
                 </figure>
-                <a href="/little_demo/zh/" class="article-a">
-                    <p class="article-p-h">Quecpyton小实验</p>
+                <a href="/FAQ/zh/" class="article-a">
+                    <p class="article-p-h">Quecpyton常见问题</p>
                 </a>
-                <p class="article-p-t">Quecpyton小实验</font>
+                <p class="article-p-t">Quecpyton常见问题</font>
                 </p>
                 <p class="article-p-t">最新：2021-03-31</font>
                 </p>

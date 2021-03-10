@@ -22,12 +22,12 @@
                         "label": "产品介绍"
                     },
                     {
-                        "url": "/Development_env_tools/zh/",
-                        "label": "开发环境"
-                    },
-                    {
                         "url": "/Quick_start/zh/",
                         "label": "快速开始"
+                    },
+                    {
+                        "url": "/sbs/zh/",
+                        "label": "手把手教程"
                     },
                     {
                         "url": "/little_demo/zh/",

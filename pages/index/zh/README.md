@@ -48,7 +48,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <p class="article-p-t">最新：2021-03-31</font>
                 </p>
             </div>
-            <!-- Quecpyton开发环境-->
+            <!-- Quecpyton快速开始-->
             <div class="col-item">
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
@@ -65,15 +65,15 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         </div>
                     </figcaption>
                 </figure>
-                <a href="/Development_env_tools/zh/" class="article-a">
-                    <p class="article-p-h">Quecpyton开发环境</p>
+                <a href="/Quick_start/zh/" class="article-a">
+                    <p class="article-p-h">Quecpyton快速开始</p>
                 </a>
-                <p class="article-p-t">Quecpyton开发环境</font>
+                <p class="article-p-t">Quecpyton快速开始</font>
                 </p>
                 <p class="article-p-t">最新：2021-03-31</font>
                 </p>
             </div>
-            <!-- Quecpyton快速开始-->
+            <!-- Quecpyton手把手教学-->
             <div class="col-item">
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
@@ -90,10 +90,10 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         </div>
                     </figcaption>
                 </figure>
-                <a href="/Quick_start/zh/" class="article-a">
-                    <p class="article-p-h">Quecpyton快速开始</p>
+                <a href="/sbs/zh/" class="article-a">
+                    <p class="article-p-h">Quecpyton手把手教学</p>
                 </a>
-                <p class="article-p-t">Quecpyton快速开始</font>
+                <p class="article-p-t">Quecpyton手把手教学</font>
                 </p>
                 <p class="article-p-t">最新：2021-03-31</font>
                 </p>
@@ -196,10 +196,10 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         </div>
                     </figcaption>
                 </figure>
-                <a href="/little_demo/zh/" class="article-a">
-                    <p class="article-p-h">Quecpyton小实验</p>
+                <a href="/FAQ/zh/" class="article-a">
+                    <p class="article-p-h">Quecpyton常见问题</p>
                 </a>
-                <p class="article-p-t">Quecpyton小实验</font>
+                <p class="article-p-t">Quecpyton常见问题</font>
                 </p>
                 <p class="article-p-t">最新：2021-03-31</font>
                 </p>

@@ -1,3 +1,4 @@
+# FAQ 常见问题
 items:
   - label: FAQ&常见问题
     file: README.md
@@ -5,5 +6,3 @@ items:
     file: join_us/README.md
   - label: 其他问题
     file: others/others.md
-
-

@@ -60,7 +60,7 @@ MicroPython使用了非常宽松的MIT授权方式，而不是大公司常用的
 
 ##  QuecPython与C-SDK关系
 
-![](media/1.png)
+![Quecpython_intro_1](media/Quecpython_intro_1.png)
 
 从系统架构图中可以看出，从平台底层到用户接口层的架构分层十分清晰，分别是Hardware平台硬件层、平台OS层、QuecPython Adapter Layer平台适配层、QuecPython VM虚拟机层、QuecPython Compiler编译器层和QuecPython Modules用户接口层。
 

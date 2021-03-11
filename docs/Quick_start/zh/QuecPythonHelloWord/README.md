@@ -13,6 +13,7 @@
 
 2.hello world打印
 
+
 （1）交互窗口打印
 
 如下图所示，使用QPYcom工具，端口连接”USB串行设备”，选择“交互”界面，进行如下交互打印。
@@ -37,9 +38,10 @@ while print_num:
     utime.sleep(2)   # 延迟2秒
 ```
 
-运行结果如下：
+运行结果如下:
 
-![helloworld打印](media/helloworld打印.png)
+![helloworld_print](media/helloworld_print.png)
+
 
 ## 点亮LED灯与HTTP获取网页源代码
 
@@ -55,7 +57,7 @@ while print_num:
 
 实物连接如下所示。
 
-![LED连接](media/LED连接.jpg)
+![LED_connect](media/LED_connect.jpg)
 
 
 
@@ -89,11 +91,11 @@ while account:
 
 1.打开QPYcom运行*led_net.py*，如下图所示。
 
-![点击运行](media/点击运行.jpg)
+![Click_Run](media/Click_Run.jpg)
 
 2.运行中，看到request获取成功后，拔掉SIM卡（模拟无法注网的状态），部分LOG如下：
 
-![运行效果](media/运行效果.jpg)
+![Operation_effect](media/Operation_effect.jpg)
 
 说明：
 

@@ -1,7 +1,7 @@
 {
     "class": "language_zh",
     "navbar": {
-        "title": "teedoc",
+        "title": "QuecPython",
         "logo": {
             "alt": "teedoc logo",
             "src": "/static/image/quectel.png"
@@ -14,7 +14,7 @@
                 "position": "left"
             },
             {
-                "label": "文档: ",
+                "label": "&nbsp;&nbsp;&nbsp;&nbsp;文档&nbsp;&nbsp;&nbsp;&nbsp;",
                 "position": "left",
                 "items": [
                     {
@@ -26,6 +26,10 @@
                         "label": "快速开始"
                     },
                     {
+                        "url": "/sbs/zh/",
+                        "label": "手把手教程"
+                    },
+                    {
                         "url": "/little_demo/zh/",
                         "label": "小实验"
                     },
@@ -35,7 +39,7 @@
                     },
                     {
                         "url": "/Mass_production/zh/",
-                        "label": "产品案例"
+                        "label": "产品量产"
                     },
                     {
                         "url": "/FAQ/zh/",

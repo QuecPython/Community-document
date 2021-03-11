@@ -357,9 +357,8 @@ if __name__ == '__main__':
 
 显示结果：
 
-<img src="media\大图显示.jpg" alt="大图显示" style="zoom:20%;" />
 
-
+![](media\Quecpython_test_lcd_1.jpg)
 
 
 

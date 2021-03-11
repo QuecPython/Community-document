@@ -42,7 +42,7 @@ function teedoc_release() {
 }
 
 function copy_file() {
-    python3 auto_creat_toc.py --input_file docs/Quecpython_intro/zh/config.json --action copy
+    python3 auto_creat_toc.py --input_file pages/index/zh/config.json --action copy
 }
 
 case $1 in
@@ -55,7 +55,7 @@ case $1 in
 "kill")
     kill_teedoc
     ;;
-"help")
+"--help")
     usage
     ;;
 "build")

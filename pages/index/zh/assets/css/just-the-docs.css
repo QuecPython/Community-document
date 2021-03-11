@@ -379,7 +379,7 @@ th {
   .cc-izmir img {
     margin-bottom: 0;
     display: block; }
-
+/*
 * {
   box-sizing: border-box; }
 
@@ -399,21 +399,18 @@ body {
   line-height: 1.4;
   color: #5c5962;
   background-color: #f5f6fa; }
-
+*/
 p,
 h1,
-h2,
 h3,
 h4,
 h5,
 h6,
 ol,
-ul,
 pre,
 address,
 blockquote,
 dl,
-div,
 fieldset,
 form,
 hr,
@@ -421,6 +418,10 @@ noscript,
 table {
   margin-top: 0; }
 
+ 
+ 
+ 
+/*
 h1,
 h2,
 h3,
@@ -446,6 +447,7 @@ a:not([class]) {
   background-repeat: repeat-x;
   background-position: 0 100%;
   background-size: 1px 1px; }
+*/
   a:not([class]):hover {
     background-image: linear-gradient(rgba(114, 83, 237, 0.45) 0%, rgba(114, 83, 237, 0.45) 100%);
     background-size: 1px 1px; }

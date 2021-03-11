@@ -50,7 +50,7 @@
             {
                 "label": "GitHub",
                 "position": "right",
-                "url": "https://github.com/quecpython/wiki"
+                "url": "https://github.com/quecpython/Community-document"
             }
         ]
     },
@@ -81,7 +81,7 @@
                     },
                     {
                         "label": "本网站源文件",
-                        "url": "https://github.com/teedoc/teedoc.github.io",
+                        "url": "https://github.com/quecpython/Community-document",
                         "target": "_blank"
                     }
                 ]

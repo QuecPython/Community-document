@@ -23,11 +23,12 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
     <div id="main-content" class="home-content home-wrapper" role="main">
         <!-- 第一行-->
         <div class="col-3">
-            <!-- Quecpyton产品介绍-->
+            <!-- QuecPython产品介绍-->
             <div class="col-item">
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image01.jpg" alt="Sample Image" />
+					<a href="/Quecpython_intro/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -39,43 +40,41 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                     </figcaption>
                 </figure>
                 <a href="/Quecpython_intro/zh/" class="article-a">
-                    <p class="article-p-h">Quecpyton产品介绍</p>
+                    <p class="article-p-h">QuecPython产品介绍</p>
                 </a>
-                <p class="article-p-t">Quecpyton产品介绍</font>
-                </p>
                 <p class="article-p-t">最新：2021-03-31</font>
                 </p>
             </div>
-            <!-- Quecpyton快速开始-->
+            <!-- QuecPython快速开始-->
             <div class="col-item">
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image02.jpg" alt="Sample Image" />
+					<a href="/Quick_start/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
                                 </h2>
                                 <p>Quecpython 开发环境搭建
-                                    Quecpyton Hello World & Quecpython 获取百度网址
+                                    QuecPython Hello World & Quecpython 获取百度网址
                                 </p>
                             </div>
                         </div>
                     </figcaption>
                 </figure>
                 <a href="/Quick_start/zh/" class="article-a">
-                    <p class="article-p-h">Quecpyton快速开始</p>
+                    <p class="article-p-h">QuecPython快速开始</p>
                 </a>
-                <p class="article-p-t">Quecpyton快速开始</font>
-                </p>
-                <p class="article-p-t">最新：2021-03-31</font>
-                </p>
+                <p class="article-p-t">QuecPython快速开始</font>
+                </p>              
             </div>
-            <!-- Quecpyton手把手教学-->
+            <!-- QuecPython手把手教学-->
             <div class="col-item">
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image03.jpg" alt="Sample Image" />
+					<a href="/sbs/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -87,21 +86,20 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                     </figcaption>
                 </figure>
                 <a href="/sbs/zh/" class="article-a">
-                    <p class="article-p-h">Quecpyton手把手教学</p>
-                </a>
-                <p class="article-p-t">Quecpyton手把手教学</font>
-                </p>
+                    <p class="article-p-h">QuecPython手把手教学</p>
+                </a>              
                 <p class="article-p-t">最新：2021-03-31</font>
                 </p>
             </div>
         </div>
         <!-- 第二行-->
         <div class="col-3">
-            <!-- Quecpyton小实验-->
+            <!-- QuecPython小实验-->
             <div class="col-item">
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image04.jpg" alt="Sample Image" />
+					<a href="/little_demo/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -113,18 +111,17 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                     </figcaption>
                 </figure>
                 <a href="/little_demo/zh/" class="article-a">
-                    <p class="article-p-h">Quecpyton小实验</p>
+                    <p class="article-p-h">QuecPython小实验</p>
                 </a>
-                <p class="article-p-t">Quecpyton小实验</font>
-                </p>
                 <p class="article-p-t">最新：2021-03-31</font>
                 </p>
             </div>
-            <!-- Quecpyton开发进阶-->
+            <!-- QuecPython开发进阶-->
             <div class="col-item">
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image05.jpg" alt="Sample Image" />
+					<a href="/Advanced_development/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -136,44 +133,42 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                     </figcaption>
                 </figure>
                 <a href="/Advanced_development/zh/" class="article-a">
-                    <p class="article-p-h">Quecpyton开发进阶</p>
+                    <p class="article-p-h">QuecPython开发进阶</p>
                 </a>
-                <p class="article-p-t">Quecpyton开发进阶</font>
-                </p>
                 <p class="article-p-t">最新：2021-03-31</font>
                 </p>
             </div>
-            <!-- Quecpyton产品案例-->
+            <!-- QuecPython产品案例-->
             <div class="col-item">
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image06.jpg" alt="Sample Image" />
+					<a href="/Product_case/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
                                 <h2 style="margin-bottom: 5px;">
                                 </h2>
-                                <p>云喇叭 tacker DTU 对讲机</p>
+                                <p>云喇叭 DTU 对讲机 Tracker</p>
                             </div>
                         </div>
                     </figcaption>
                 </figure>
                 <a href="/Product_case/zh/" class="article-a">
-                    <p class="article-p-h">Quecpyton产品案例</p>
+                    <p class="article-p-h">QuecPython产品案例</p>
                 </a>
-                <p class="article-p-t">Quecpyton产品案例</font>
-                </p>
                 <p class="article-p-t">最新：2021-03-31</font>
                 </p>
             </div>
         </div>
         <!-- 第三行-->
         <div class="col-3">
-            <!-- Quecpyton产品量产-->
+            <!-- QuecPython产品量产-->
             <div class="col-item">
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image07.jpg" alt="Sample Image" />
+					<a href="/Mass_production/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -185,35 +180,32 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                     </figcaption>
                 </figure>
                 <a href="/Mass_production/zh/" class="article-a">
-                    <p class="article-p-h">Quecpyton产品量产</p>
+                    <p class="article-p-h">QuecPython产品量产</p>
                 </a>
-                <p class="article-p-t">Quecpyton产品量产</font>
-                </p>
                 <p class="article-p-t">最新：2021-03-31</font>
                 </p>
             </div>
-            <!-- Quecpyton常见问题-->
+            <!-- QuecPython常见问题-->
             <div class="col-item">
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image08.jpg" alt="Sample Image" />
+					<a href="/FAQ/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
-                                <h2 style="margin-bottom: 5px;">
-                                    常见问题， 刷砖救砖，文档系统编写规范,
-                                    参与文档贡献流程，提交文档错误流程。
+                                <h2 style="margin-bottom: 5px;">                                   
                                 </h2>
-                                <p></p>
+                                <p>常见问题， 刷砖救砖，文档系统编写规范,
+                                    参与文档贡献流程，提交文档错误流程。
+									</p>
                             </div>
                         </div>
                     </figcaption>
                 </figure>
                 <a href="/FAQ/zh/" class="article-a">
-                    <p class="article-p-h">Quecpyton常见问题</p>
+                    <p class="article-p-h">QuecPython常见问题</p>
                 </a>
-                <p class="article-p-t">Quecpyton常见问题</font>
-                </p>
                 <p class="article-p-t">最新：2021-03-31</font>
                 </p>
             </div>

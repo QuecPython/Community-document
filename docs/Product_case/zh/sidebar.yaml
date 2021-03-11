@@ -1,3 +1,3 @@
 items:
--   label: 量产工具
-    file: QuecPythonMP/README.md
+    - label: 量产案例
+      file: README.md

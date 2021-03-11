@@ -1,6 +1,6 @@
 # Quecpython 快速开始
 items:
   - label: QuecPython 开发准备
-    file:  QuecPythonPrepare.md
+    file:  README.md
   - label: 快速开始
     file: QuecPythonHelloWord/README.md

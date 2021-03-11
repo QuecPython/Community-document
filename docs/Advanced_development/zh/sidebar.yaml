@@ -3,53 +3,53 @@ items:
     file: README.md
   - label: 总线接口
     items:
-      - label: QuecPython UART开发
+      - label: UART开发
         file: QuecPythonSub/UART.md
-      - label: QuecPython GPIO及IO中断开发
+      - label: GPIO及IO中断开发
         file: QuecPythonSub/GPIO.md
-      - label: QuecPython I2C总线开发
+      - label: I2C总线开发
         file: QuecPythonSub/IIC.md
-      - label: QuecPython PWM开发
+      - label: PWM开发
         file: QuecPythonSub/PWM.md
-      - label: QuecPython ADC采样开发
+      - label: ADC采样开发
         file: QuecPythonSub/ADC.md
-      - label: QuecPython SPI总线开发
+      - label: SPI总线开发
         file: QuecPythonSub/SPI.md
   - label: 无线联网
     file: QuecPythonWirelessNetwork/README.md
   - label: 云平台
     items:
-      - label: QuecPython 接入阿里云
+      - label: 接入阿里云
         file: QuecPythonCloud/Aliyun.md
-      - label: QuecPython 接入腾讯云
+      - label: 接入腾讯云
         file: QuecPythonCloud/TencentCloud.md
-      - label: QuecPython 接入移远云
+      - label: 接入移远云
         file: QuecPythonCloud/QuecCloud.md
-      - label: QuecPython 接入华为云
+      - label: 接入华为云
         file: QuecPythonCloud/HuaweiCloud.md
-      - label: QuecPython 接入亚马逊云
+      - label: 接入亚马逊云
         file: QuecPythonCloud/AmazonCloud.md
   - label: 驱动子系统
     items:
       - label: 平台驱动
         items:
-          - label: QuecPython RTC开发
+          - label: RTC开发
             file: QuecPythonSub/RTC.md
-          - label: QuecPython Timer定时器开发
+          - label: Timer定时器开发
             file: QuecPythonSub/Timer.md
-          - label: QuecPython Watchdog开发
+          - label: Watchdog开发
             file: QuecPythonSub/WDT.md
-          - label: QuecPython Power开关机
+          - label: Power开关机
             file: QuecPythonSub/Power.md
-          - label: QuecPython 低功耗管理
+          - label: 低功耗管理
             file: QuecPythonSub/PM.md
-          # - label: QuecPython 充电管理
+          # - label: 充电管理
       - label: 音频
         items:
-          - label: Quecpython 音频播放
+          - label: 音频播放
             file: QuecPythonSub/Audio.md
-          # - label:  Quecpython 录制音频
-          - label: Quecpython TTS开发
+          # - label:  录制音频
+          - label: TTS开发
             file: QuecPythonSub/TTS.md
       - label: 外设调试
         items:

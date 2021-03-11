@@ -43,12 +43,17 @@ Quecpython 欢迎开发者参与到开源社区的贡献中来，本文主要介
 
 下载代码链接相对路径为code/代码名称，图片链接为media/图片名称，代码名称最好下划线组合一下
 防止重复，图片名称长一点，可以用生成的图片，也可以用文件名称+序号也是为了防止重复
+请不要使用中文作为文件名 
 
+```c
+  ```
+  ![图片标注](url)
+  ![图片标注](media/9351c08c142de93cfa88095688ab7535.png)
+  ```
+```
 
-
-
-
-## 使用SourceTree拉取代码
+图片标注可以为中文， 但是 **url** 必须使用全英文.
+##  使用SourceTree拉取代码
 
 我们使用的是[github](https://github.com/)提交存储代码, 首先需要安装[git](https://git-scm.com/)，
 不过官网的下载速度比较感人，建议到[淘宝-git镜像库](https://npm.taobao.org/mirrors/git-for-windows/)下载最新git客户端，
@@ -82,7 +87,7 @@ https://github.com/quecpython/Community-document
 
 
 
-**注意事项**
+### **注意事项**
 
 仓库 的clone 路径是你 自己账户的名称。 比我的账户名称是 youtao-cQ 。  那么我的克隆地址就是如下。 
 
@@ -286,4 +291,3 @@ http://127.0.0.1:2333/
 
 
 4。 等待主仓库合并
-

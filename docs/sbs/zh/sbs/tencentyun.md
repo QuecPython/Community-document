@@ -13,7 +13,7 @@
 
 步骤 **1**： 登录腾讯云物联网平台（ [https://console.cloud.tencent.com/iothub），](https://console.cloud.tencent.com/iothub)显示界面如下：
 
-![Quectel_QuecPython_腾讯云IoT平台_014.png](media/Quectel_QuecPython_腾讯云IoT平台_014.png)
+![Quectel_sbs_tencent_Iot_plat_014.png](media/Quectel_sbs_tencent_Iot_plat_014.png)
 
 ​															  图 **1** ： 腾讯云登录界面
 
@@ -21,19 +21,19 @@
 
 所示： 
 
-![Quectel_QuecPython_腾讯云IoT平台_015.png](media/Quectel_QuecPython_腾讯云IoT平台_015.png)
+![Quectel_sbs_tencent_Iot_plat_015.png](media/Quectel_sbs_tencent_Iot_plat_015.png)
 
 ​																	图**2** ： 新建产品
 
 步骤 **3**： 点击“ 确定 ，将” 出现下图产品列表界面：
 
-![Quectel_QuecPython_腾讯云IoT平台_016.png](media/Quectel_QuecPython_腾讯云IoT平台_016.png)
+![Quectel_sbs_tencent_Iot_plat_016.png](media/Quectel_sbs_tencent_Iot_plat_016.png)
 
 ​																	图 **3** ： 产品列表
 
 步骤 **4**： 进入产品管理，出现如 下图所示的 设备列表界面：
 
-![Quectel_QuecPython_腾讯云IoT平台_017.png](media/Quectel_QuecPython_腾讯云IoT平台_017.png)
+![Quectel_sbs_tencent_Iot_plat_017.png](media/Quectel_sbs_tencent_Iot_plat_017.png)
 
 ​																图 **4**： 设备列表界面
 
@@ -41,31 +41,31 @@
 
 图所示： 
 
-![Quectel_QuecPython_腾讯云IoT平台接入_018.png](media/Quectel_QuecPython_腾讯云IoT平台接入_018.png)
+![Quectel_sbs_tencent_Iot_plat_018.png](media/Quectel_sbs_tencent_Iot_plat_018.png)
 
 ​																	图 **5**： 创建新设备 
 
 步骤 **6**： 创建新设备后，将出现创建成功界面提示，详情如下：
 
-![Quectel_QuecPython_腾讯云IoT平台接入_019.png](media/Quectel_QuecPython_腾讯云IoT平台接入_019.png)
+![Quectel_sbs_tencent_Iot_plat_019.png](media/Quectel_sbs_tencent_Iot_plat_019.png)
 
 ​																	图 **6**： 设备创建成功提示
 
 步骤 **7**： 点击上图中的“ 开始管理设备 ，” 进入设备详细信息界面，如下图所示：
 
-![Quectel_QuecPython_腾讯云IoT平台接入_020.png](media/Quectel_QuecPython_腾讯云IoT平台接入_020.png)
+![Quectel_sbs_tencent_Iot_plat_020.png](media/Quectel_sbs_tencent_Iot_plat_020.png)
 
 ​																		图 **7**： 设备详情页面
 
 步骤 **8**： 复制并保存设备密钥和 client id 等信息，如下图所示
 
-![Quectel_QuecPython_腾讯云IoT平台接入_021.png](media/Quectel_QuecPython_腾讯云IoT平台接入_021.png)
+![Quectel_sbs_tencent_Iot_plat_021.png](media/Quectel_sbs_tencent_Iot_plat_021.png)
 
 ​																			图 **8**： 设备密钥
 
 步骤 **9**： 进入“ 权限列表'' ，可以查阅 相关发布订阅的 Topic，如下图所示： 
 
-![Quectel_QuecPython_腾讯云IoT平台接入_022.png](media/Quectel_QuecPython_腾讯云IoT平台接入_022.png)
+![Quectel_sbs_tencent_Iot_plat_022.png](media/Quectel_sbs_tencent_Iot_plat_022.png)
 
 ​																			图 **9**： topic列表
 
@@ -73,7 +73,7 @@
 
 步骤 **1**： 将开发板接入电脑 。接入后的操作方法详见《 Quectel_QuecPython_基础操作说明》。
 
-![Quectel_QuecPython_腾讯云IoT平台接入_023.png](media/Quectel_QuecPython_腾讯云IoT平台接入_023.png)
+![Quectel_sbs_tencent_Iot_plat_023.png](media/Quectel_sbs_tencent_Iot_plat_023.png)
 
 ​																		图 **10**：开发板接入电脑
 
@@ -105,7 +105,7 @@ tenxun.start()
 
 步骤 **4**： 在 EC100Y-CN 开发板运行 *test.py* 文件，如下图所示：
 
-![Quectel_QuecPython_腾讯云IoT平台接入_025.png](media/Quectel_QuecPython_腾讯云IoT平台接入_025.png)
+![Quectel_sbs_tencent_Iot_plat_025.png](media/Quectel_sbs_tencent_Iot_plat_025.png)
 
 ​															图 **11**：运行 **test.py** 文件 
 
@@ -115,13 +115,13 @@ tenxun.start()
 
 容后点击“ 发送消息 ，如” 下图所示：
 
-![Quectel_QuecPython_腾讯云IoT平台接入_026.png](media/Quectel_QuecPython_腾讯云IoT平台接入_026.png)
+![Quectel_sbs_tencent_Iot_plat_026.png](media/Quectel_sbs_tencent_Iot_plat_026.png)
 
 ​															图 **12**：编写消息内容 
 
 步骤 **2**： 设备端将接收到腾讯云发送的订阅消息，如下图所示：
 
-![Quectel_QuecPython_腾讯云IoT平台接入_027.png](media/Quectel_QuecPython_腾讯云IoT平台接入_027.png)
+![Quectel_sbs_tencent_Iot_plat_027.png](media/Quectel_sbs_tencent_Iot_plat_027.png)
 
 ​															图 **13**：设备订阅消息接收界面
 
@@ -129,7 +129,7 @@ tenxun.start()
 
 打开腾讯云的“ 产品列表 ”依次点击“设备管理” --> “云日志” -->“行为日志” ，可以查看设备侧向腾讯云平台发布的消息，如下图所示： 
 
-![Quectel_QuecPython_腾讯云IoT平台接入_028.png](media/Quectel_QuecPython_腾讯云IoT平台接入_028.png)
+![Quectel_sbs_tencent_Iot_plat_028.png](media/Quectel_sbs_tencent_Iot_plat_028.png)
 
 ​															图 **14**：腾讯云接收到设备发布消息
 

@@ -310,4 +310,4 @@ record_test.isBusy()
 
 脚本执行结果分别下图所示：
 
-![Quectel_QuecPython_录音API_029.png](media/Quectel_QuecPython_录音API_029.png)
+![Quectel_sbs_record_API_029.png](media/Quectel_sbs_record_API_029.png)

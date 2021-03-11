@@ -8,7 +8,7 @@
 
 QuecPython 开发板中ADC输入引脚如下图所示 。 
 
-![Quectel_QuecPython_总线用户指导_015.png](media/Quectel_QuecPython_总线用户指导_015.png)
+![Quectel_QuecPython_bus_Guidance_for_use_015.png](media/Quectel_QuecPython_bus_Guidance_for_use_015.png)
 
 ​																		图 **1**： **ADC** 输入 引脚
 
@@ -30,7 +30,7 @@ adc.read(ADC.ADC0)
 
 命令行运行结果可见 ADC通道电压变为 1.8 V，如 图所示： 
 
-![Quectel_QuecPython_总线用户指导_019.png](media/Quectel_QuecPython_总线用户指导_019.png)
+![Quectel_QuecPython_bus_Guidance_for_use_019.png](media/Quectel_QuecPython_bus_Guidance_for_use_019.png)
 
 ​																图 **2**： **ADC** 通道 电压变化 
 
@@ -42,17 +42,17 @@ adc.read(ADC.ADC0)
 
 硬件连接比较简单，仅需要 3 条线，注意连接时若两个设备UART电平范围不一致请做电平转换后再 连接 。 
 
-- TX：发送数据端，要接对面设备的 RX； 
-- RX：接收数据端，要接对面设备的 TX； 
+- TX：发送数据端，要接对面设备的 RX, 
+- RX：接收数据端，要接对面设备的 TX,
 - GND：保证两设备共地，有统一的参考平面 。 
 
-![Quectel_QuecPython_总线用户指导_.020.png](media/Quectel_QuecPython_总线用户指导_.020.png)
+![Quectel_QuecPython_bus_Guidance_for_use_020.png](media/Quectel_QuecPython_bus_Guidance_for_use_020.png)
 
 ​																	图 **3**： **UART** 硬件连接 
 
 在 EC100Y-CN 模块 上使用 UART 串口传输 数据时，需将发送数据端 TX 与 对面的 RX 相连 ，将接受数 据端 RX 与 对面的 TX 相连 ，在 QuecPython 中 通过 machine 模块 UART 类 可以实现串口数据传输功能 ， 详细使用方法和 API 接口说明见 《Quectel_QuecPython_类库 API 说明 》。 
 
-![Quectel_QuecPython_总线用户指导_021.png](media/Quectel_QuecPython_总线用户指导_021.png)
+![Quectel_QuecPython_bus_Guidance_for_use_021.png](media/Quectel_QuecPython_bus_Guidance_for_use_021.png)
 
 ​																	图 **4**： **UART API** 示例代码 
 
@@ -68,7 +68,7 @@ SPI 协议是串行外围设备接口，是一种高速全双工的通信总线 
 
 （4）MISO：主设备输入 /  从设备输出引脚。主机从这条信号线读入数据，从机的数据则由这条信号 线输出，即在这条线上数据的方向为从机到主机。
 
-![Quectel_QuecPython_总线用户指导_.022.png](media/Quectel_QuecPython_总线用户指导_.022.png)
+![Quectel_QuecPython_bus_Guidance_for_use_022.png](media/Quectel_QuecPython_bus_Guidance_for_use_022.png)
 
 
 
@@ -84,15 +84,15 @@ I2C 接口只有两根线， SCL 和 SDA：
 
 I2C 属于串行通信，数据以 bit 为单位在 SDA 线上串行依次传输，同步工作状态，主从设备工作在同一 个时钟频率下，通过 SCL 线同步时钟， I2C 传输电平信号，不需要很高的速度，通信双方距离很近，所以 不需要差分信号来抗干扰， I2C 通常用在同一块板子上的两个 IC 之间的通信，数据量不大且速度较低。
 
-![Quectel_QuecPython_总线用户指导_025.png](media/Quectel_QuecPython_总线用户指导_025.png)
+![Quectel_QuecPython_bus_Guidance_for_use_025.png](media/Quectel_QuecPython_bus_Guidance_for_use_025.png)
 
 ​																		图 **6**： **I2C** 硬件连接
 
 以下数据以 I2C 连接 光照传感器为例 。 
 
-![Quectel_QuecPython_总线用户指导_026.png](media/Quectel_QuecPython_总线用户指导_026.png)
+![Quectel_QuecPython_bus_Guidance_for_use_026.png](media/Quectel_QuecPython_bus_Guidance_for_use_026.png)
 
-![Quectel_QuecPython_总线用户指导_027.png](media/Quectel_QuecPython_总线用户指导_027.png)
+![Quectel_QuecPython_bus_Guidance_for_use_027.png](media/Quectel_QuecPython_bus_Guidance_for_use_027.png)
 
 ​																图 **7**： **I2C** 连接 光照传感器
 

@@ -17,7 +17,7 @@ Micropython提供mpy-cross工具，用于将Python源代码文件编译成.mpy�
 
 **参数说明**
 
-![](media/图1_mpy-cross参数使用说明.jpg)
+![](media/Quectel_Qp_mpy_cross_tools_how_to_use_01.jpg)
 
 ​														图 1 ：mpy-cross参数使用说明 图片索引
 
@@ -31,7 +31,7 @@ https://makeblock-micropython-api.readthedocs.io/zh/latest/novapi/tutorial/preco
 
 1. 连接EC100Y-CN开发板至电脑，如下图所示。接入后操作方法详见《Quectel_QuecPython_基础操作说明》。
 
-   ![](media/图2_开发板接入电脑.jpg)
+   ![](media/Quectel_Qp_mpy_cross_tools_how_to_use_02.jpg)
 
    ​															图 2 ：开发板接入电脑
 
@@ -47,7 +47,7 @@ https://makeblock-micropython-api.readthedocs.io/zh/latest/novapi/tutorial/preco
 
 3. 打开Windows下cmd命令行，进入mpy-cross-amd64.exe工具所在目录，如下图所示。
 
-   ![](media/图3_命令行进入工具目录.jpg)
+   ![](media/Quectel_Qp_mpy_cross_tools_how_to_use_03.jpg)
 
    ​														图 3 ：命令行进入工具目录
 
@@ -61,7 +61,7 @@ https://makeblock-micropython-api.readthedocs.io/zh/latest/novapi/tutorial/preco
 
    生成的.mpy如下图所示
 
-   ![](media/图4_mpy文件.jpg)
+   ![](media/Quectel_Qp_mpy_cross_tools_how_to_use_04.jpg)
 
    ​																	图 4 ：mpy文件
 
@@ -82,7 +82,7 @@ https://makeblock-micropython-api.readthedocs.io/zh/latest/novapi/tutorial/preco
 7. 在开发板中运行test.py文件，可看到经过mpy-cross工具加密过的usertest模块执行结果，如下
    图所示。
 
-   ![](media/图5_test.py运行结果.jpg)
+   ![](media/Quectel_Qp_mpy_cross_tools_how_to_use_05.jpg)
 
    ​																图 5 ：test.py运行结果
 

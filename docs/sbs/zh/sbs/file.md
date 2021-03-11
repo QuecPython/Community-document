@@ -58,7 +58,7 @@
 
 将 EC100Y-CN QuecPython 开发板 连接至电脑，接入后的操作方法详见《 Quectel_QuecPython_基础 操作说明 》。 
 
-![Quectel_QuecPython_文件读写_029.png](media/Quectel_QuecPython_文件读写_029.png)
+![Quectel_QuecPython_file_rw_029.png](media/Quectel_QuecPython_file_rw_029.png)
 
 ​												图 **1**： **EC100Y-CN QuecPython** 开发板与电脑连接
 
@@ -84,7 +84,7 @@ fd.close()
 
 - 在 *test.txt* 文件输入 "hello python"： 
 
-![Quectel_QuecPython_文件读写_032.png](media/Quectel_QuecPython_文件读写_032.png)
+![Quectel_QuecPython_file_rw_032.png](media/Quectel_QuecPython_file_rw_032.png)
 
 ​													图 **2**： 在 **test.txt** 文件输入 **"hello python"** 
 
@@ -92,7 +92,7 @@ fd.close()
 
 步骤 三 ： 读取文件 运行结果 
 
-![Quectel_QuecPython_文件读写_033.png](media/Quectel_QuecPython_文件读写_033.png)
+![Quectel_QuecPython_file_rw_033.png](media/Quectel_QuecPython_file_rw_033.png)
 
 ​													 		图 **3**： 读取 文件运行结果
 
@@ -119,7 +119,7 @@ fd.close()
 
 步骤 三 ： 写入文件运行结果 
 
-![Quectel_QuecPython_文件读写_035.png](media/Quectel_QuecPython_文件读写_035.png)
+![Quectel_QuecPython_file_rw_035.png](media/Quectel_QuecPython_file_rw_035.png)
 
 ​															图 **4**： 写入 文件运行结果
 
@@ -127,19 +127,19 @@ fd.close()
 
 1. 列出当前文件列表 
 
-![Quectel_QuecPython_文件读写_036.png](media/Quectel_QuecPython_文件读写_036.png)
+![Quectel_QuecPython_file_rw_036.png](media/Quectel_QuecPython_file_rw_036.png)
 
 ​															图 **5**： 列出 当前文件列表
 
 2. 新建目录 
 
-![Quectel_QuecPython_文件读写_037.png](media/Quectel_QuecPython_文件读写_037.png)
+![Quectel_QuecPython_file_rw_037.png](media/Quectel_QuecPython_file_rw_037.png)
 
 ​																		图 **6**： 新建目录
 
 3. 删除目录 
 
-![Quectel_QuecPython_文件读写_038.png](media/Quectel_QuecPython_文件读写_038.png)
+![Quectel_QuecPython_file_rw_038.png](media/Quectel_QuecPython_file_rw_038.png)
 
 ​																		图 **7**： 删除目录 
 

@@ -481,7 +481,7 @@ mode：
    sock = usocket.socket(usocket.AF_INET, usocket.SOCK_STREAM)
    ```
 
-   ![](media/图1.jpg)
+   ![](media/sbs_socket_picture1.jpg)
 
 2. 解析域名
 
@@ -493,7 +493,7 @@ mode：
 
 (family, type, proto, canonname, sockaddr)
 
-![](media/图2.jpg)
+![](media/sbs_socket_picture2.jpg)
 
 3. 建立与服务端的连接：
 
@@ -501,7 +501,7 @@ mode：
    sock.connect(sockaddr)
    ```
 
-![](media/图3.jpg)
+![](media/sbs_socket_picture3.jpg)
 
 4. 向服务端发送消息：
 
@@ -510,7 +510,7 @@ mode：
    print('send %d bytes' % ret)
    ```
 
-   ![](media/图4.jpg)
+   ![](media/sbs_socket_picture4.jpg)
 
 5. 接收服务端的消息：
 
@@ -520,11 +520,11 @@ mode：
    print(data.decode())
    ```
 
-   ![](media/图5.jpg)
+   ![](media/sbs_socket_picture5.jpg)
 
    ​		服务端消息接收完成后，可在浏览器上发起请求，验证返回消息是否与Socket接收的消息一致，如下所示：
 
-   ![](media/图6.jpg)
+   ![](media/sbs_socket_picture6.jpg)
 
 6. 关闭连接：
 
@@ -532,7 +532,7 @@ mode：
    sock.close()
    ```
 
-   ![](media/图7.jpg)
+   ![](media/sbs_socket_picture7.jpg)
 
    ​		以上部分代码可见于移远通信提供的SDK工具包中，路径为moudles/socket/example_socket.py，也可通过example模块来执行该脚本文件。
 

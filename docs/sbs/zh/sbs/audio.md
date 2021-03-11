@@ -26,7 +26,7 @@ QuecPyComTools.exe -d COM20 -b 115200 -f cp music.mp3 :/
 
 - **示例** 
 
-![Quectel_QuecPython_音频文件播放_016.png](media/Quectel_QuecPython_音频文件播放_016.png)
+![Quectel_QuecPython_Audio_file_play_016.png](media/Quectel_QuecPython_Audio_file_play_016.png)
 
 步骤 **4**： 查看用户根目录下是否有 *music.mp3* 文件。 通过 Xshell 连接 模块的 CDC 口 ，进入命令交互
 
@@ -44,7 +44,7 @@ QuecPyComTools.exe -d COM20 -b 115200 -f cp music.mp3 :/
 
 - **示例** 
 
-![Quectel_QuecPython_音频文件播放_018.png](media/Quectel_QuecPython_音频文件播放_018.png)
+![Quectel_QuecPython_Audio_file_play_018.png](media/Quectel_QuecPython_Audio_file_play_018.png)
 
 步骤 **5**：播放音频文件 。通过命令交互界面依次执行如下命令，即可播放。
 
@@ -63,7 +63,7 @@ QuecPyComTools.exe -d COM20 -b 115200 -f cp music.mp3 :/
 
 - **示例** 
 
-![Quectel_QuecPython_音频文件播放_020.png](media/Quectel_QuecPython_音频文件播放_020.png)
+![Quectel_QuecPython_Audio_file_play_020.png](media/Quectel_QuecPython_Audio_file_play_020.png)
 
 **备注** : 用户分区盘符目前固定为 U，播放时必须为绝对路径，比如 U:/path/filename，如果直接放到根目录下， 则为 U:/filename。 
 
@@ -77,7 +77,7 @@ QuecPyComTools.exe -d COM20 -b 115200 -f cp music.mp3 :/
 
 - **示例** 
 
-![Quectel_QuecPython_音频文件播放_023.png](media/Quectel_QuecPython_音频文件播放_023.png)
+![Quectel_QuecPython_Audio_file_play_023.png](media/Quectel_QuecPython_Audio_file_play_023.png)
 
 步骤 **2**： 断开 Xshell 与模块 CDC 口的连接 ， 否则 CDC 被 占用， 将 导致 *QPYcom.exe* 工具执 行失败 （若 使用的 是其它工具，请断开其它工具与 CDC 口的连接）
 
@@ -95,7 +95,7 @@ QuecPyComTools.exe -d COM20 -b 115200 -f cp music.mp3 :/audio/
 
 - **示例** 
 
-![Quectel_QuecPython_音频文件播放_025.png](media/Quectel_QuecPython_音频文件播放_025.png)
+![Quectel_QuecPython_Audio_file_play_025.png](media/Quectel_QuecPython_Audio_file_play_025.png)
 
 步骤 **4**： 查看用户根目录 的 *audio* 目录 下是否有 *music.mp3* 文件。通过 Xshell 重新连接 模块的 CDC 
 
@@ -108,7 +108,7 @@ QuecPyComTools.exe -d COM20 -b 115200 -f cp music.mp3 :/audio/
 
 - **示例** 
 
-![Quectel_QuecPython_音频文件播放_027.png](media/Quectel_QuecPython_音频文件播放_027.png)
+![Quectel_QuecPython_Audio_file_play_027.png](media/Quectel_QuecPython_Audio_file_play_027.png)
 
 步骤 **5**：播放音频文件 。 通过命令交互界面依次执行如下命令，即可播放。
 
@@ -122,7 +122,7 @@ QuecPyComTools.exe -d COM20 -b 115200 -f cp music.mp3 :/audio/
 
 创建一个音频对象，此处 选择耳机通道，所以参数为 1，其他参数请参 《Quectel_QuecPython_ 类库 API 说明》相关模块说明部分 。 
 
-![Quectel_QuecPython_音频文件播放_029.png](media/Quectel_QuecPython_音频文件播放_029.png)
+![Quectel_QuecPython_Audio_file_play_029.png](media/Quectel_QuecPython_Audio_file_play_029.png)
 
 #### 删除音频文件 
 
@@ -141,7 +141,7 @@ QuecPyComTools.exe -d COM20 -b 115200 -f cp music.mp3 :/audio/
 
 - **示例** 
 
-![Quectel_QuecPython_音频文件播放_031.png](media/Quectel_QuecPython_音频文件播放_031.png)
+![Quectel_QuecPython_Audio_file_play_031.png](media/Quectel_QuecPython_Audio_file_play_031.png)
 
 ​				此时用户分区根目录下的音频 文件 已被删除。
 
@@ -164,19 +164,19 @@ QuecPyComTools.exe -d COM20 -b 115200 -f cp music.mp3 :/audio/
 
 步骤 **1**： 从 QuecPython 官网 http://qpy.quectel.com/down.html 下载 SDK 包 。 
 
-![Quectel_QuecPython_音频文件播放_033.png](media/Quectel_QuecPython_音频文件播放_033.png)
+![Quectel_QuecPython_Audio_file_play_033.png](media/Quectel_QuecPython_Audio_file_play_033.png)
 
 ​																	图 **1**： 下载 **SDK** 包 
 
 步骤 **2**： 解压 SDK 包 ， 并进入 *tools* 目录 下 ， 解压 *littlefs_tools.zip*。 
 
-![Quectel_QuecPython_音频文件播放_034.png](media/Quectel_QuecPython_音频文件播放_034.png)
+![Quectel_QuecPython_Audio_file_play_034.png](media/Quectel_QuecPython_Audio_file_play_034.png)
 
 ​															图 **2**： ***littlefs_tools*** 目录下的 文件
 
 步骤 **3**： 将 需要打包的音频文件存放至 *littlefs_tools/mount* 目录下 ， 此处 以 *music.mp3* 为例 。 
 
-![Quectel_QuecPython_音频文件播放_035.png](media/Quectel_QuecPython_音频文件播放_035.png)
+![Quectel_QuecPython_Audio_file_play_035.png](media/Quectel_QuecPython_Audio_file_play_035.png)
 
 图 **3**： 上传 **music.mp3** 音频文件 至 **littlefs_tools/mount** 
 
@@ -201,13 +201,13 @@ mklfs.exe -c mount -b 4096 -r 4096 -p 4096 -s 1048576 -i customer_fs.bin
 
 - **示例** 
 
-![Quectel_QuecPython_音频文件播放_038.png](media/Quectel_QuecPython_音频文件播放_038.png)
+![Quectel_QuecPython_Audio_file_play_038.png](media/Quectel_QuecPython_Audio_file_play_038.png)
 
 步骤 **5**：步骤 4 执行 成功后 ，将在 *littlefs_tools* 目录下 生成文件系统镜像文件 *customer_fs.bin*，将其打
 
 `    `包至固件包。
 
-![Quectel_QuecPython_音频文件播放_039.png](media/Quectel_QuecPython_音频文件播放_039.png)
+![Quectel_QuecPython_Audio_file_play_039.png](media/Quectel_QuecPython_Audio_file_play_039.png)
 
 ​											图 **4**： 打包 镜像文件 **customer_fs.bin** 至版本包
 

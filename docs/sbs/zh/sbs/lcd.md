@@ -676,28 +676,28 @@ LCD流程脚本执行结果
 
 LCD流程脚本执行结果分别如图所示：
 
-![](media/脚本执行图1.jpg)
+![](media/sbs_lcd_script_exec_1.jpg)
 
 
 
 
-![](media/显示图片1.jpg)
+![](media/sbs_lcd_display_1.jpg)
 
 
 
-![](media/脚本执行图2.jpg)
+![](media/sbs_lcd_script_exec_2.jpg)
 
 
 
-![](media/显示图片2.jpg)
+![](media/sbs_lcd_display_2.jpg)
 
 
 
-![](media/脚本执行图3.jpg)
+![](media/sbs_lcd_script_exec_3.jpg)
 
 
 
-![](media/显示图片3.jpg)
+![](media/sbs_lcd_display_3.jpg)
 
 
 

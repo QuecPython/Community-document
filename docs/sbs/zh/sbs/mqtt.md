@@ -25,7 +25,7 @@ MQTT协议遵循以下设计原则：
 
 运用MQTT协议，设备可以方便地连接到物联网云服务，管理设备并处理数据，最后应用到各种业务场景，如下图所示：
 
-![](media/图1_MQTT业务场景.jpg)
+![](media/Quectel_Qp_mqtt_app_how_to_use_01.jpg)
 
 图 1 ：MQTT业务场景
 
@@ -43,7 +43,7 @@ MQTT协议遵循以下设计原则：
 
 **MQTT协议原理**
 
-![](media/图2_MQTT协议原理图示.jpg)
+![](media/Quectel_Qp_mqtt_app_how_to_use_02.jpg)
 
 ​															图 2 ：MQTT协议原理图示
 
@@ -369,7 +369,7 @@ mosquitto的用法：
 mosquitto -h
 ```
 
-![](media/图3_mosquitto帮助信息.jpg)
+![](media/Quectel_Qp_mqtt_app_how_to_use_03.jpg)
 
 ​															图 3 ：mosquitto帮助信息
 
@@ -387,7 +387,7 @@ mosquitto -c mosquitto.conf -p 10080 –v
 
 ​		测试阶段，配置文件直接使用安装目录下的默认配置即可；本测试本地端口使用 10080 。
 
-![](media/图4_MQTT服务器启动成功.jpg)
+![](media/Quectel_Qp_mqtt_app_how_to_use_04.jpg)
 
 ​														图 4 ：MQTT服务器启动成功
 
@@ -399,7 +399,7 @@ mosquitto -c mosquitto.conf -p 10080 –v
 
 安装完成后，打开MQTT.fx，默认进入发布界面，如下图所示：
 
-![](media/图5_MQTT.fx启动界面.jpg)
+![](media/Quectel_Qp_mqtt_app_how_to_use_05.jpg)
 
 ​																		图 5 ：MQTT.fx启动界面
 
@@ -415,7 +415,7 @@ Address”（代理地址）和“Broker Port”（代理端口）两项。亦�
 
 本文中采用默认配置。
 
-![](media/图6_MQTT连接配置.jpg)
+![](media/Quectel_Qp_mqtt_app_how_to_use_06.jpg)
 
 ​																			图 6 ：MQTT连接配置
 
@@ -425,15 +425,15 @@ Address”（代理地址）和“Broker Port”（代理端口）两项。亦�
 
 ​      在 MQTT.fx 启动后进入的默认界面点击“Connect”按钮，建立 MQTT 连接。连接成功后mosquitto服务器打印的日志请参考MQTT服务器与客户端交互。连接成功后即可发布消息、订阅主题，默认已填充待订阅和发布的消息主题。
 
-![](media/图7_MQTT服务器与客户端交互.jpg)
+![](media/Quectel_Qp_mqtt_app_how_to_use_07.jpg)
 
 ​														图 7 ：MQTT服务器与客户端交互
 
-![](media/图8_发布消息.jpg)
+![](media/Quectel_Qp_mqtt_app_how_to_use_08.jpg)
 
 ​														图 8 ：发布消息
 
-![](media/图9_订阅主题.jpg)
+![](media/Quectel_Qp_mqtt_app_how_to_use_09.jpg)
 
 ​														图 9 ：订阅主题
 
@@ -446,7 +446,7 @@ Address”（代理地址）和“Broker Port”（代理端口）两项。亦�
 
 步骤 1 ： 开发板接入电脑，接入后详细操作方法，请参考《Quectel_QuecPython_基础操作说明》。
 
-![](media/图10_接入开发板.jpg)
+![](media/Quectel_Qp_mqtt_app_how_to_use_10.jpg)
 
 ​															图 10 ：接入开发板
 
@@ -493,7 +493,7 @@ c.disconnect()
 
 http://www.tongxinmao.com/txm/webmqtt.php。
 
-![](media/图11_通信猫在线客户端服务器.jpg)
+![](media/Quectel_Qp_mqtt_app_how_to_use_11.jpg)
 
 ​														图 11 ：通信猫在线客户端服务器
 
@@ -506,7 +506,7 @@ http://www.tongxinmao.com/txm/webmqtt.php。
 
 步骤 4 ： 在开发板中运行test.py文件，即可以看到模块执行结果，如下图所示：
 
-![](media/图11_通信猫在线客户端服务器.jpg)
+![](media/Quectel_Qp_mqtt_app_how_to_use_11.jpg)
 
 
 #### 附录

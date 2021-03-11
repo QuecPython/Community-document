@@ -1,7 +1,7 @@
 # 手把手教程
 items:
   - label: QuecPython 基础操作说明
-    file: Quecpython_base_op.md
+    file: README.md
   - label: 网络应用
     items:
       - label: QuecPython Socket编程
@@ -18,14 +18,6 @@ items:
         file: sbs/aliyun.md
       - label: QuecPython 接入腾讯云应用开发指导
         file: sbs/tencentyun.md
-  - label: 通信
-    items:
-      - label: QuecPython MQTT应用开发指导
-        file: sbs/mqtt.md
-      - label: QuecPython HTTP应用开发指导
-        file: sbs/http.md
-      - label: QuecPython Socket应用开发指导
-        file: sbs/socket.md
   - label: 系统
     items:
       - label: QuecPython 文件读写使用说明

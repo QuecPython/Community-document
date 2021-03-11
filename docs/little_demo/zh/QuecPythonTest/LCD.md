@@ -8,7 +8,7 @@
 
 ​		本实验所使用的ST7789V lcd引脚定义与开发板的LCD接口是完全匹配的，可以直接插到开发板的LCD接口使用。开发板LCD接口如下：
 
-![lcd接口说明](media\lcd接口说明.png)
+![Quectel_Qp_little_demo_lcd_01](media\Quectel_Qp_little_demo_lcd_01.png)
 
 | 开发板lcd引脚 | 引脚定义                       |
 | ------------- | ------------------------------ |
@@ -289,17 +289,17 @@ lcd_st7789v = st7789v.ST7789V(240, 240)
 
 假如要显示一张240x240的图片，图片如下：
 
-![50x50](media\50x50.jpg)
+![Quectel_Qp_little_demo_lcd_02](media\Quectel_Qp_little_demo_lcd_02.jpg)
 
 （1）使用Image2Lcd 软件获取图片色彩数据
 
-![image-20210205162455049](media\image-20210205162455049.png)
+![Quectel_Qp_little_demo_lcd_03](media\Quectel_Qp_little_demo_lcd_03.png)
 
 （2）得到数据如下图1、2，将该 .c 文件中头部和尾部多余部分都删除，只保留中间的数据部分，确保处理后的数据第一行就是数据，且最后没有多余行，每一行前面没有空格等多余字符
 
-![image-20210205162622120](media\image-20210205162622120.png)
+![Quectel_Qp_little_demo_lcd_04](media\Quectel_Qp_little_demo_lcd_04.png)
 
-![image-20210205162708312](media\image-20210205162708312.png)
+![Quectel_Qp_little_demo_lcd_05](media\Quectel_Qp_little_demo_lcd_05.png)
 
 （3）将处理后的图片数据文件保存为txt格式文件，假设命名为image.txt
 
@@ -358,7 +358,7 @@ if __name__ == '__main__':
 显示结果：
 
 
-![](media\Quecpython_test_lcd_1.jpg)
+![Quectel_Qp_little_demo_lcd_06](media\Quectel_Qp_little_demo_lcd_06.jpg)
 
 
 
@@ -394,7 +394,7 @@ example.exec('usr/example_display_image.py')
 
 ### 实验结果
 
-![图片显示实验](media\图片显示实验.png)
+![Quectel_Qp_little_demo_lcd_07](media\Quectel_Qp_little_demo_lcd_07.png)
 
 
 
@@ -425,7 +425,7 @@ example.exec('usr/example_display_char.py')
 
 ### 实验结果
 
-![字符显示实验](media\字符显示实验.jpg)
+![Quectel_Qp_little_demo_lcd_08](media\Quectel_Qp_little_demo_lcd_08.jpg)
 
 
 
@@ -447,7 +447,7 @@ PCtoLCD2002 是一款字符取模软件，可以生成汉字、英文以及标�
 
 （1）打开 Image2Lcd 软件，点击【打开】按钮，选择要显示的图片；
 
-![图片取模](media\图片取模.png)
+![Quectel_Qp_little_demo_lcd_09](media\Quectel_Qp_little_demo_lcd_09.png)
 
 （2）输出数据类型选择【C语言数组(*.c)】,扫描方式选择【水平扫描】，输出灰度一定要选择【16位真彩色】；
 
@@ -463,11 +463,11 @@ PCtoLCD2002 是一款字符取模软件，可以生成汉字、英文以及标�
 
 （2）根据需要选择字体，设置字体大小等；
 
-![字符取模1](media\字符取模1.png)
+![字符取模1](media\Quectel_Qp_little_demo_lcd_10.png)
 
 （3）点击齿轮图标，进入如下所示界面，选择 【阴码】、【逐行式】、【顺向】、【C51格式】，点击确定；
 
-![字符取模2](media\字符取模2.png)
+![字符取模2](media\Quectel_Qp_little_demo_lcd_11.png)
 
 （4）输入要取模的字符后，点击【生成字模】，即可得到对应的字模数据，按照示例 fonts.py 文件中的格式，将字模数据保存到字典中。
 

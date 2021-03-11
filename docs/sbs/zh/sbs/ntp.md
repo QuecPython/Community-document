@@ -19,17 +19,17 @@ NTP对时需要从NTP服务器上获取时间，故在实现NTP对时功能之�
 1. 准备一张可用的Nano SIM卡，滑动打开开发板上SIM卡槽，放入SIM卡后合上卡槽盖子并通电，
    等待自动拨号。以EC100Y-CN为例，SIM卡槽位置如图所示：
 
-   ![](media/图1.插入sim卡.jpg)
+   ![](media/Quectel_Qp_ntp_how_to_use_01.jpg)
 
    ​															图 1 ：插入SIM卡
 
    自动拨号后，可通过如下方法验证是否拨号成功：
 
-![](media/图2.自动拨号成功验证.jpg)
+![](media/Quectel_Qp_ntp_how_to_use_02.jpg)
 
 ​															图 2 ：自动拨号成功验证
 
-2. 拨号成功后，导入ntptime模块
+1. 拨号成功后，导入ntptime模块
 
    ```
    import ntptime
@@ -40,21 +40,21 @@ NTP对时需要从NTP服务器上获取时间，故在实现NTP对时功能之�
 
    返回当前的NTP服务器，默认为"ntp.aliyun.com"。
 
-   ![](media/图3.当前ntp服务器.jpg)
+   ![](media/Quectel_Qp_ntp_how_to_use_03.jpg)
 
    ​														图 3 ：当前NTP服务器
 
-3. 设置NTP服务器。设置成功返回 0 ，设置失败返回- 1 。
+2. 设置NTP服务器。设置成功返回 0 ，设置失败返回- 1 。
 
    ```
    ntptime.sethost(host)
    ```
 
-   ![](media/图4.设置ntp服务器.jpg)
+   ![](media/Quectel_Qp_ntp_how_to_use_04.jpg)
 
    ​														图 4 ：设置NTP服务器
 
-4. 同步NTP时间。同步成功返回 0 ，同步失败返回- 1 。
+3. 同步NTP时间。同步成功返回 0 ，同步失败返回- 1 。
 
    ```
    ntptime.settime()
@@ -64,7 +64,7 @@ NTP对时需要从NTP服务器上获取时间，故在实现NTP对时功能之�
 
    ​		ntptime.settime()对时后返回时间为UTC时间，北京时间领先UTC八个小时，所以对时后，对比当前时间可发现时间后退八小时。
 
-   ![](media/图5.对时成功.jpg)
+   ![](media/Quectel_Qp_ntp_how_to_use_05.jpg)
 
    ​																		图 5 ：对时成功
 

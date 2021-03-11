@@ -6,7 +6,7 @@
 
 以EC100Y-CN模块为例，如图所示为GPIO串口：
 
-![](media/LED图0_gpio.jpg)
+![](media/sbs_led_picture_0.jpg)
 
 ​																				图 1 ：GPIO串口
 
@@ -74,15 +74,15 @@ while i<100：
 	i += 1
 ```
 
-![](media/LED图1.jpg)
+![](media/sbs_led_picture_1.jpg)
 
-![](media/LED图2.jpg)
+![](media/sbs_led_picture_2.jpg)
 
 ​	运行以上代码后即可观察到EC100Y-CN模块的LED灯每隔 1 秒闪烁，并且可通过修改代码和连接多
 
 组外设实现更多功能。
 
-![](media/LED图3.jpg)
+![](media/sbs_led_picture_3.jpg)
 
 ​																			图 2 ：LED灯闪烁
 

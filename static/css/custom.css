@@ -9,6 +9,11 @@
     padding-right: 1em;
 	padding-left: 2em;
 }
+
+blockquote {
+    border-left: 4px solid #DC143C;
+}
+
 #home_page h1 {
     width: 100%;
     font-size: 6em;

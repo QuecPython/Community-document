@@ -15,8 +15,6 @@ items:
         file: QuecPythonSub/ADC.md
       - label: SPI总线开发
         file: QuecPythonSub/SPI.md
-  - label: 无线联网
-    file: QuecPythonWirelessNetwork/README.md
   - label: 云平台
     items:
       - label: 接入阿里云

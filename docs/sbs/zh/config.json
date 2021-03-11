@@ -30,12 +30,16 @@
                         "label": "手把手教程"
                     },
                     {
+                        "url": "/Advanced_development/zh/",
+                        "label": "开发进阶"
+                    },
+                    {
                         "url": "/little_demo/zh/",
                         "label": "小实验"
                     },
                     {
-                        "url": "/Advanced_development/zh/",
-                        "label": "开发进阶"
+                        "url": "/Product_case/zh/",
+                        "label": "产品案例"
                     },
                     {
                         "url": "/Mass_production/zh/",

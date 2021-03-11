@@ -1,46 +1,38 @@
 # 手把手教程
 items:
-  - label: QuecPython 基础操作说明
+  - label: 基础操作说明
     file: README.md
   - label: 网络应用
     items:
-      - label: QuecPython Socket编程
+      - label: Socket编程
         file: sbs/socket.md
-      - label: QuecPython MQTT客户端开发
+      - label: MQTT客户端开发
         file: sbs/mqtt.md
-      - label: QuecPython HTTP客户端开发
+      - label: HTTP客户端开发
         file: sbs/http.md
-      - label: QuecPython NTP应用开发
+      - label: NTP应用开发
         file: sbs/ntp.md
-  - label: 云平台
-    items:
-      - label: QuecPython 接入阿里云应用开发指导
-        file: sbs/aliyun.md
-      - label: QuecPython 接入腾讯云应用开发指导
-        file: sbs/tencentyun.md
   - label: 系统
     items:
-      - label: QuecPython 文件读写使用说明
+      - label: 文件读写使用说明
         file: sbs/file.md
-      - label: QuecPython 多线程应用开发指导
+      - label: 多线程应用开发指导
         file: sbs/thread.md
-      - label: QuecPython 总线使用指导
+      - label: 总线使用指导
         file: sbs/bus.md
-      - label: QuecPython 定时器使用指导
+      - label: 定时器使用指导
         file: sbs/timer.md
   - label: 应用
     items:
-      - label: QuecPython GPS使用指导
+      - label: GPS使用指导
         file: sbs/gps.md
-      - label: QuecPython NTP使用指导
+      - label: NTP使用指导
         file: sbs/ntp.md
-      - label: QuecPython Audio使用指导
+      - label: Audio使用指导
         file: sbs/audio.md
-      - label: QuecPython TTS使用指导
+      - label: TTS使用指导
         file: sbs/tts.md
-      - label: QuecPython LCD使用指导
+      - label: LCD使用指导
         file: sbs/lcd.md
-      - label: QuecPython Record录音使用指导
+      - label: Record录音使用指导
         file: sbs/record.md
-      - label: QuecPython PWM使用指导
-        file: sbs/pwm.md

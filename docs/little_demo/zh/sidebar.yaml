@@ -16,16 +16,6 @@ items:
         file: QuecPythonTest/External_interrupt.md
     -   label: 独立看门狗实验
         file: QuecPythonTest/WDT.md
-    -   label: PWM 输出实验
-        file: QuecPythonTest/PWM.md
-    -   label: 待机唤醒实验
-        file: QuecPythonTest/PM.md
-    -   label: RTC 实验
-        file: QuecPythonTest/RTC.md
-    -   label: ADC 实验
-        file: QuecPythonTest/ADC.md
-    -   label: IIC 实验
-        file: QuecPythonTest/IIC.md
     -   label: 录音实验
         file: QuecPythonTest/record.md
 -   label: 传感器
@@ -38,5 +28,3 @@ items:
         file: QuecPythonTest/i2c_lis2dh.md
     -   label: 步进电机驱动实验
         file: QuecPythonTest/ebf_smd4805.md
-    -   label: 继电器实验
-        file: QuecPythonTest/relay.md

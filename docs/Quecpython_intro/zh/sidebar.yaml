@@ -1,4 +1,12 @@
 # Quecpyton产品介绍
 items:
-    - label: Quecpython简介
-      file: README.md
+  - label: 简介
+    file: README.md
+  - label: 架构特性
+    file: Qp_Product_intro/Arch_features.md
+  - label: 硬件支持
+    file: Qp_Product_intro/Hardware_Support.md
+  - label: 资料获取
+    file: Qp_Product_intro/Data_Acquisition.md
+  - label: 适用场景
+    file: Qp_Product_intro/Applicable_Scenarios.md

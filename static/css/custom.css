@@ -2,7 +2,13 @@
 #navbar h2 {
     color: #DC143C;
 }
-
+#navbar #navbar_items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 1em;
+	padding-left: 2em;
+}
 #home_page h1 {
     width: 100%;
     font-size: 6em;
@@ -20,7 +26,7 @@
     margin: 5em 1em;
 }
 #home_page .big_btn a {
-    padding: 2em;
+    padding: 3em;
     background-color: #DC143C;
     font-size: 1.3em;
     border-radius: 10px;

@@ -28,6 +28,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image01.jpg" alt="Sample Image" />
+					<a href="/Quecpython_intro/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -49,6 +50,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image02.jpg" alt="Sample Image" />
+					<a href="/Quick_start/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -72,6 +74,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image03.jpg" alt="Sample Image" />
+					<a href="/sbs/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -96,6 +99,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image04.jpg" alt="Sample Image" />
+					<a href="/little_demo/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -117,6 +121,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image05.jpg" alt="Sample Image" />
+					<a href="/Advanced_development/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -138,6 +143,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image06.jpg" alt="Sample Image" />
+					<a href="/Mass_production/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -162,6 +168,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image07.jpg" alt="Sample Image" />
+					<a href="/FAQ/zh/" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>

@@ -25,7 +25,7 @@ function start() {
 function creat_toc() {
     # 读取所有的 sidebar.yml 生成目录
     echo "生成目录"
-    python3 auto_creat_toc.py --out_file Quecpython_toc.yml --input_file docs/Quecpython_intro/zh/config.json --action toc
+    python3 script/auto_creat_toc.py --out_file Quecpython_toc.yml --input_file docs/Quecpython_intro/zh/config.json --action toc
 
 }
 
@@ -42,7 +42,7 @@ function teedoc_release() {
 }
 
 function copy_file() {
-    python3 auto_creat_toc.py --input_file pages/index/zh/config.json --action copy
+    python3 script/auto_creat_toc.py --input_file pages/index/zh/config.json --action copy
 }
 
 case $1 in

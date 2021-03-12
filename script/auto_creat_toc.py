@@ -50,6 +50,8 @@ def creat_toc(args):
         cmd = "cat {0} >> {1}".format(_, args.out_file)
         logger.debug("执行 {} 命令".format(cmd))
         os.system(cmd)
+        cmd = "echo '------------\n' >> {}".format(args.out_file)
+        os.system(cmd)
     pass
 
 

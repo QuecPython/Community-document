@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function usage() {
-    echo "uasge: $0 {start|restart|kill|toc|build|help|-h}"
+    echo "uasge: $0 {start|restart|kill|toc|build|publish|release_src|release|help|-h}"
 }
 
 function kill_teedoc() {
@@ -41,6 +41,15 @@ function teedoc_release() {
     mv ${release_filename}.tar.bz2 ..
 }
 
+function teedoc_src_release() {
+    release_filename=Community-document-src-$(date "+%Y%m%d-%H%M")
+    /home/dist/teedoc
+}
+
+function teedoc_publish_to_server() {
+    rsync ./out/ root@192.168.25.215:/home/dist/teedoc -r -v -i
+}
+
 function copy_file() {
     python3 script/auto_creat_toc.py --input_file pages/index/zh/config.json --action copy
 }
@@ -67,6 +76,13 @@ case $1 in
 "release")
     teedoc_release
     ;;
+"release_src")
+    teedoc_src_release
+    ;;
+"publish")
+    teedoc_publish_to_server
+    ;;
+
 "toc")
     # 生成目录
     creat_toc

@@ -55,6 +55,15 @@ Quecpython 欢迎开发者参与到开源社区的贡献中来，本文主要介
 图片标注可以为中文， 但是 **url** 必须使用全英文.
 ##  使用SourceTree拉取代码
 
+想要参加文档的贡献，需要首先安装下面的工具
+1. [淘宝-git镜像库](https://npm.taobao.org/mirrors/git-for-windows/) 
+2. [Sourcetree | Free Git GUI for Mac and Windows (建议)](https://www.sourcetreeapp.com/) 
+
+当然你如果熟悉 **git** 的使用，就可以不用安装 **Sourcetree**了。 如果开始学习，建议使用 **sourcetree** 管理版本。
+
+
+
+
 我们使用的是[github](https://github.com/)提交存储代码, 首先需要安装[git](https://git-scm.com/)，
 不过官网的下载速度比较感人，建议到[淘宝-git镜像库](https://npm.taobao.org/mirrors/git-for-windows/)下载最新git客户端，
 更多关于git的使用可以参考[廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600/)
@@ -71,8 +80,6 @@ git 属于命令行工具， 不宜使用。 推荐使用git 的gui工具 **Sour
 
 关于 SourceTree 的安装请参考 [SourceTree安装及卸载 - 爱码网 (likecs.com)](http://www.likecs.com/show-118323.html)
 
-
-
 ### FORK & 拉取代码
 
 文档仓库地址为 
@@ -81,21 +88,18 @@ git 属于命令行工具， 不宜使用。 推荐使用git 的gui工具 **Sour
 https://github.com/quecpython/Community-document
 ```
 
-1. 首先请注册[GitHub](https://github.com/)账号 。
+1. 首先请使用**邮箱**注册[GitHub](https://github.com/)账号。
 2. 然后请使用注册的账号，fork  [quecpython/Community-document (github.com)](https://github.com/quecpython/Community-document)仓库。
    具体请参考 [Fork 一个仓库 - 简书 (jianshu.com)](https://www.jianshu.com/p/7935afee30e8)
 
-
-
 ### **注意事项**
 
-仓库 的clone 路径是你 自己账户的名称。 比我的账户名称是 youtao-cQ 。  那么我的克隆地址就是如下。 
+仓库的 **clone** 路径是你自己账户的名称。 比我的账户名称是 **youtao-cQ** 。
+那么我的克隆地址就是如下。 
 
-```
+```c
 https://github.com/youtao-cQ/Community-document
 ```
-
-
 
 ![](media/sourcetree_clone_01.png)
 
@@ -111,7 +115,7 @@ https://github.com/youtao-cQ/Community-document
 
 使用 cmd 或者 powershell 进入 **E:\work\temp**。 当前目录有一个 .git 的隐藏文件夹
 
-```
+```bash
 PS E:\work\temp> dir
 
 
@@ -127,12 +131,12 @@ d-----          2021/3/8     22:04                pages
 d-----          2021/3/8     22:04                static
 -a----          2021/3/8     22:04            120 .gitignore
 -a----          2021/3/8     22:04           3223 auto_creat_toc.py
-...
+
 ```
 
 首先请使用 pip3 安装 teedoc.
 
-```
+```bash
 pip3 install teedoc
 ```
 

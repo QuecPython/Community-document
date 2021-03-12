@@ -1,12 +1,10 @@
-## QuecPython 其他问题
-
-### QuecPython支持群地址
+## QuecPython支持群地址
 
 移远QuecPython开发交流群：445121768
 
-### QuecPython相关准备
+## QuecPython相关准备
 
-#### 开发板
+### 开发板
 
 目前推荐的开发板：
 
@@ -18,7 +16,7 @@
 
 ![EC600S_QuecPython_EVB_V1.x](media/EC600S_QuecPython_EVB_V1.x.png)
 
-#### 驱动下载安装
+### 驱动下载安装
 
 1.使用开发板前，需要在电脑上安装USB驱动。正确安装后，电脑可以识别开发板。
 
@@ -62,10 +60,11 @@
 
 
 
-2.3 固件下载安装
+### 固件下载安装
+
 **说明：**
-（1）为了对客户python应用程序做交互适配，需要先下载QuecPython固件到开发板中，下载完成后才可以对python应用程序做底层适配处理。固件下载网址：https://python.quectel.com/download.html
-（2）QPycom工具支持烧py固件，不支持烧C固件
+（1）为了对客户python应用程序做交互适配，需要先下载QuecPython固件到开发板中，下载完成后才可以对python应用程序做底层适配处理。固件下载网址：[https://python.quectel.com/download.html](https://python.quectel.com/download.html)
+（2）QPYcom工具支持烧py固件，不支持烧C固件
 （3）具体步骤如下
 
 1.首先确认自己的模块版本，使用QCOM查看，发送AT指令 ‘AT+GMR ‘，如下所示：
@@ -107,7 +106,7 @@ TIPS：
 （2）安装前，请备份您的重要文件，并保存您的工作进度，以免发生意外情况，导致文件丢失
 （3）安装成功后，无需重启电脑
 
-#### 脚本下载
+### 脚本下载
 
 ​		脚本下载的建议：
 
@@ -115,15 +114,13 @@ TIPS：
 
 （2）如果你想一次性下载您的所有脚本，并清除原来的脚本（具体清除哪些脚本，见下面解释），可以按照下面的脚本下载步骤操作
 
-​		对于使用如下脚本下载的步骤，哪些脚本会被删除的解释：
-
-对于根目录除了json都会删除，而对于子文件夹（自己新建一个文件夹），脚本下载不会影响这个文件夹。
+​		对于使用如下脚本下载的步骤，哪些脚本会被删除的解释：对于根目录除了json都会删除，而对于子文件夹（自己新建一个文件夹），脚本下载不会影响这个文件夹。
 
 1.用户选择“USB串行设备”后，“打开串口”，点击“下载”按钮，创建项目（项目名称随意）。        
 
 <img src="media/jioaben_start.png" alt="jioaben_start" style="zoom:33%;" />
 
-2.点击“选择固件”（脚本下载暂时是需要选择固件，但是不会下载固件，这一步可以省略）。
+2.点击“选择固件”（脚本下载暂时是需要选择固件，但是不会下载固件，这一步后面可以省略）。
 
 <img src="media/jioaben_choosefirmware.png" alt="jioaben_choosefirmware" style="zoom:33%;" />
 
@@ -155,7 +152,7 @@ TIPS：
 
 ## QuecPython救砖处理
 
-当使用QPYcom工具下载固件失败后，不用担心板子成砖，可以有以下两种方法下载成功。
+当使用QPYcom工具下载固件失败后，不用担心板子成砖，我们来帮你救砖。
 
 ### 方法1
 
@@ -181,7 +178,7 @@ TIPS：
 
 ![img](media/clip_image006.jpg)
 
-或者可以是直接短接开发板的BOOT和1V8（如下图）
+或者可以是直接短接EC600S_QuecPython_EVB_V1.x 开发板的BOOT和1V8（如下图）；对于其他开发板，自己找到对应的位置
 
 <img src="media/clip_image008.jpg" alt="img" style="zoom: 50%;" />
 
@@ -197,11 +194,11 @@ TIPS：
 
 ​		有两种解决方案：
 
-（1）忽略，继续执行下面步骤（4），但是如果失败，则按照解决方案②操作
+（1）忽略，继续执行下面“步骤4”，但是如果失败，则按照方法3操作
 
 （2）调整下载口（具体步骤见章节“下载口调整”）
 
-4.打开QPYcom，不要打开串口，直接创建项目（对于非python固件的模块，一定不要打开串口）。
+4.打开QPYcom，不要打开串口，直接创建项目（**对于非python固件的模块，一定不要打开串口**）。
 
 <img src="media/clip_image016.jpg" alt="img" style="zoom: 67%;" />
 
@@ -259,7 +256,7 @@ TIPS：
 
 注意事项：
 
-由于Qflash检测下载口有时间限制，可以考虑把短接放在第一步，然后对于第4步，直接上电即可；或者对于第4步的短接上电需要快速操作
+​		由于Qflash检测下载口有时间限制，可以考虑把短接放在第一步，然后对于第4步，直接上电即可；或者对于第4步的短接上电需要快速操作
 
 5.下载结束，参考如下截图：
 
@@ -270,8 +267,6 @@ TIPS：
 ![img](media/clip_image034.jpg)
 
 显示py结尾表示烧录py固件成功
-
- 
 
 对于方法2中可能遇到的问题有以下几点建议：
 
@@ -291,7 +286,7 @@ TIPS：
 
 ### 下载口调整
 
-1.首先确认，下载口是否如下截图，如果是，继续执行第（2）步，否的话，可群里（移远QuecPython开发交流群：445121768）咨询
+1.首先确认，下载口是否如下截图，如果是，继续执行“第2步”，否则的话，可群里（移远QuecPython开发交流群：445121768）咨询
 
 <img src="media/clip_image014.jpg" alt="img" style="zoom:50%;" />
 
@@ -333,9 +328,9 @@ TIPS：
 
 （1）对于开始的调试，建议不要将程序命名为：main.py，建议使用其他名字，例如：start.py等等。如果里面存在死循环，那么在程序运行时无法中断，对于此情况，暂时只能通过重刷固件解决。
 
-（2）如果真的想使用main.py程序，同时又需要使用死循环，记得在死循环里面加一个可中断的条件，例如（如下的例子是在一个线程里面加入了死循环，同时在这个死循环里面加入了中断退出的条件，当一直输出时，可通过GPIO2对应的按键中断输出）：
+（2）如果真的想使用main.py程序，同时又需要使用死循环，记得在死循环里面加一个可中断的条件，例如（1.如下的例子是在一个线程里面加入了死循环，同时在这个死循环里面加入了中断退出的条件，当一直输出时，可通过GPIO2对应的按键中断输出；2.下面的例子是基于EC600S_QuecPython_EVB_V1.x 开发板的，其他开发板请自行配置按键中断）：
 
-```
+```python
 import log
 import _thread
 from machine import Pin
@@ -364,19 +359,19 @@ if __name__ == "__main__":
 
 <img src="media/clip_image002-1615461735616.jpg" alt="img" style="zoom: 67%;" />
 
-导致原因：模块在开机后会自动寻找运行文件名为main.py的脚本文件，如果main.py中存在while，for(,,)这种循环语句，会导致程序阻塞，串口被占用，无法进行其他操作
+导致原因：模块在开机后会自动寻找运行文件名为main.py的脚本文件，如果main.py中存在while，for这种循环语句，会导致程序阻塞，串口被占用，无法进行其他操作
 
-解决方案：目前版本只能通过重刷固件解决。
+**解决方案：目前版本只能通过重刷固件解决**。
 
  
 
 **现象2：手动运行main.py程序，可以看到通过QPYcom连接“USB串行设备”看到print输出和LOG打印信息，但是自运行main.py程序后，在QPYcom的交互界面，什么都看不到。**
 
-解决方法：可以加入串口打印。
+**解决方法：可以加入串口打印**
 
 （1）   软件代码可参考：
 
-```
+```python
 from machine import UART  # 导入UART模块
 uart = UART(UART.UART2, 115200, 8, 0, 1, 0)  #配置成UART2输出（硬件的连接）
 count = 50
@@ -411,12 +406,12 @@ while count:
 
 环境搭建（这个测试仅测试 API 对串口的封装）：
 
-（１） USB 给EC600S_QuecPython_EVB_V1.x供电，Main 串口的TX1和RX1对应接到电平转换芯片的3.3V端（经电平转换成5V，是使用一个电平转换器件），串口工具GND 接地
+（１） USB 给EC600S_QuecPython_EVB_V1.x供电，main 串口的TX1和RX1对应接到电平转换芯片的3.3V端（经电平转换成5V，是使用一个电平转换器件），串口工具GND 接地
 
 （２） 软件方面：一端使用 QPYcom 连接EC600S_QuecPython_EVB_V1.x的“USB串行设备”口（用于调试时发送QuecPython指令）；另一端使用QCOM 连接“电平转换器件”对应的端口（用于接收EC600S_QuecPython_EVB_V1.x发送的数据（测试模块的write 功能），以及发送数据给模块（测试模块的read 功能））。
 
 ```python
-发数据（write）:
+#  发数据（write）:
 >>> from machine import UART 
 >>> uart = UART(UART.UART2,115200,8,0,1,0)           /////////////////// 定义发数据的端口，必须要严格按照硬件的接线来配置
 >>> uart.write("12345678")     //////////// wite数据后，可以通过QCOM 看到数据（如下截图）
@@ -428,7 +423,7 @@ while count:
 
 
 ```python
-收数据（read）：
+#  收数据（read）：
 >>> from machine import UART 
 >>> uart = UART(UART.UART2,115200,8,0,1,0)       /////////////////// 定义接收数据的端口，必须要严格按照硬件的接线来配置
 >>> uart.any()      ////////////// 显示缓存的数据（只有在QCOM发送数据，这里才会显示未读的数据）
@@ -480,16 +475,12 @@ EC600S的硬件连接：
 | USB_VBUS（PIN28） | 红色－USB电源         |
 | GND（PIN30）      | 黑色－地线            |
 
- 
-
 | 模块端           | 电源端     |
 | ---------------- | ---------- |
 | VBAT_BB（PIN29） | 电源的正极 |
 | VBAT_RF（PIN36） | 电源的正极 |
 | VBAT_RF（PIN37） | 电源的正极 |
 | GND（PIN38）     | 电源的负极 |
-
- 
 
 实物图：
 
@@ -517,7 +508,7 @@ umqtt模块提供创建MQTT客户端的发布订阅功能。该模块可以向�
 
 #### 使用MQTT连接阿里云、腾讯云等
 
-使用MQTT连接阿里云、腾讯云的步骤可以详细参见官网上的wiki社区（https://python.quectel.com/wiki/）的QuecPython云服务。
+使用MQTT连接阿里云、腾讯云的步骤可以详细参见官网上的wiki社区（[https://python.quectel.com/wiki/](https://python.quectel.com/wiki/)）的QuecPython云服务。
 
 #### 云服务运行demo出现，未订阅等信息
 
@@ -602,11 +593,11 @@ if __name__ == '__main__':
     c.disconnect()
 ```
 
-## QuecPython其他常见问题
+## QuecPython其他常见问题第一部分
 
 ### 拿到开发板后不知道怎么使用
 
-参考对应开发板的使用指导文档，下载地址：https://python.quectel.com/download.html。
+参考对应开发板的使用指导文档，下载地址：[https://python.quectel.com/download.html](https://python.quectel.com/download.html)。
 
 ### EC100Y开发板与EC100Y模组的串口位置
 
@@ -628,10 +619,10 @@ EC600S模组的串口位置可参考《Quectel_EC600S-CN_QuecOpen硬件设计手
 
 #### 对照原理图，在开发板找到具体位置
 
-第一步，看这个GPIO与PIN脚的对应关系（位置在API库的PIN模块，左侧是Quecpython的GPIO命名，右侧是模组的PIN脚号），例如你想使用QuecPython的GPIO6，那么看了这个图，你知道的是GPIO6对应的是模组的PIN15；
+第一步，看这个GPIO与PIN脚的对应关系（位置在API库的PIN模块，左侧是QuecPython的GPIO命名，右侧是模组的PIN脚号），例如你想使用QuecPython的GPIO6，那么看了这个图，你知道的是GPIO6对应的是模组的PIN15；
  <img src="media/clip_image002-1615527701161.jpg" alt="img" style="zoom: 67%;" />
 
-第二步看，EC600SV1.1的原理图，（黑色部分无需关注，只需要关注红色圈的部分），对于刚刚说的Quecpython的GPIO6（PIN15）,这里关注的是PIN15对应的GPIO77（实际上GPIO77没有特别的含义，只是表示一个连接关系，也就是此处的GPIO77对应于下图中的GPIO77）。
+第二步看，EC600SV1.1的原理图，（黑色部分无需关注，只需要关注红色圈的部分），对于刚刚说的QuecPython的GPIO6（PIN15）,这里关注的是PIN15对应的GPIO77（实际上GPIO77没有特别的含义，只是表示一个连接关系，也就是此处的GPIO77对应于下图中的GPIO77）。
  <img src="media/clip_image004-1615527701161.jpg" alt="img" style="zoom:50%;" />
  <img src="media/clip_image006-1615527701161.jpg" alt="img" style="zoom:80%;" />
  第三步，上方最后一个图的GPIO77，也就对应开发板引出的GPIO77(开发板的J6处)。
@@ -645,9 +636,9 @@ EC600S模组的串口位置可参考《Quectel_EC600S-CN_QuecOpen硬件设计手
 
 ![img](media/clip_image008-1615527701161.jpg)![img](media/clip_image010-1615527701161.jpg) 
 
-第一步，看原理图，开发板的G81对应原理图就是GPIO81。如下图所示，GPIO81对应的是PIN16**（请忽略蓝色框的GPIO标识，记住PIN16）**
+第二步，看原理图，开发板的G81对应原理图就是GPIO81。如下图所示，GPIO81对应的是PIN16**（请忽略蓝色框的GPIO标识，记住PIN16）**
 
-第二步，进入QuecPython的官网，找到PIN的API库（https://python.quectel.com/wiki/#/zh-cn/api/QuecPythonClasslib?id=pin）
+第三步，进入QuecPython的官网，找到PIN的API库（https://python.quectel.com/wiki/#/zh-cn/api/QuecPythonClasslib?id=pin）
 
 如下图所示，**如果你要控制G81，就需要配置GPIO7**。
 
@@ -696,7 +687,7 @@ sock.close()
 
 ### QuecPython是否支持队列
 
-队列是一种先进先出的数据结构，主要操作包括入队,出队。入队的元素加入到对尾，从队头取出出队的元素。在QuecPython中我们可以使用list操作来模拟队列：
+​		队列是一种先进先出的数据结构，主要操作包括入队,出队。入队的元素加入到对尾，从队头取出出队的元素。在QuecPython中我们可以使用list操作来模拟队列：
 
 ```python
 class queue:
@@ -775,7 +766,7 @@ QPYcom下载工具有代码混淆加密功能，确保用户程序不被直接�
 
 机卡绑定，第一次开机注网就绑定。
 
-### 编写Python代码用什么工具
+### 编写python代码用什么工具
 
 推荐使用pycharm或VScode，两款比较流行的IDE，自带自动补全功能。
 
@@ -832,6 +823,8 @@ a[0] = (A,B,C)
 a[0][-1] = C
 ```
 
+## QuecPython其他常见问题第二部分
+
 ### win7运行QPYcom出现“failed to execute script pyi_rth_multiprocessing”
 
 故障现象：python通过pyinstaller打包后，在别的电脑运行失败“failed to execute script pyi_rth_multiprocessing”：在低版本windows7上运行会出现这个问题，在win10上面移植程序没问题。
@@ -879,13 +872,46 @@ sys.path.append('/usr/')  # 进入usr目录下
 import b
 ```
 
-### 板子接出的串口无法通信
+### 线程有个数限制？
 
-要注意接口是1.8V还是3.3V，电平匹配才能正常通信。
+最多16个
 
-### 接上USB线灯不亮
+### 如何对文件系统进行操作
 
-检查模块电压，保证模组的3.8V电压稳定，必要时用电池供电。
+根目录/是不可读不可写的，/usr是用户区，/bak是备份区
+
+### 串口一次最多可以接受多少字节？
+
+实测接收2000字节也行；发送最大512，超过自动分包；socket、MQTT收发2000字节也行
+
+### Socket、MQTT、串口的数据监听会不会阻塞其他线程
+
+Socket、MQTT本身是‘阻塞函数’，不会阻塞其他线程。
+
+串口本身是‘非阻塞函数’，不会阻塞其他线程。
+
+### 基站定位返回的参数解释
+
+```python
+>>> cellLocator.getLocation("www.queclocator.com", 80, "1111111122222222", 8, 1) 
+(117.1138, 31.82279, 550) 
+```
+
+返回的550结果是什么意思
+
+定位精度，单位m
+
+### QuecPython队列的深度有最大值吗？比如一直发生回调，会不会丢失？
+
+随内存自动增长
+
+### 模块的Pin有没有默认电平的说明文档
+
+我们开放出来IO目前是 默认输出低电平
+
+### EC600S的模块RTC时间怎么样断电续航
+
+断电没有办法续航，因为引出RTC
 
  
 

@@ -74,8 +74,8 @@ QuecPython = log.getLogger("QuecPython")  # 指定LOG对象name
 account = 30
 while account:
     try:
-        url = "www.baidu.com"
-        response = request.get(url)  # 发送GET请求
+        address = "www.baidu.com"
+        response = request.get(address)  # 发送GET请求
         QuecPython.info("response_content: {}".format(response.content))  
         # LOG打印“响应内容的生成器对象”（具体信息如何打印见相关API介绍）
         g7.write(1)  # 写入1（输出高电平）

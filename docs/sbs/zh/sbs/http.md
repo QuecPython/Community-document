@@ -16,11 +16,11 @@ HTTP请求由请求行、请求头、空行、请求体组成。
 
 **请求行**
 
-请求行由请求方式 + URL+ 协议版本组成。
+请求行由请求方式 + address+ 协议版本组成。
 
 -   常见的请求方法有GET、POST、PUT、DELETE、HEAD；
 
--   URL：客户端要获取的资源路径；
+-   address：客户端要获取的资源路径；
 
 -   协议版本：客户端使用的HTTP协议版本号（目前使用的是http1.1）。
 
@@ -50,7 +50,7 @@ HTTP请求由请求行、请求头、空行、请求体组成。
 
 -   application/json：{"name":"value","name1":"value2”}；
 
--   application/x-www-form-urlencoded： name1=value1&name2=value2；
+-   application/x-www-form-addressencoded： name1=value1&name2=value2；
 
 -   multipart/from-data：表格形式；
 
@@ -88,11 +88,11 @@ HTTP响应由状态行、响应头、空行、响应体组成。
 
 为真正的响应数据，即为网页的HTML源代码。
 
-#### URL
+#### address
 
-URL是WWW的统一资源定位标志，就是指网络地址。
+address是WWW的统一资源定位标志，就是指网络地址。
 
-URL格式：https://host:port/path?xxx=aaa&ooo=bbb
+address格式：https://host:port/path?xxx=aaa&ooo=bbb
 
 其中：
 
@@ -104,9 +104,9 @@ URL格式：https://host:port/path?xxx=aaa&ooo=bbb
 
 -   path：访问资源的路径
 
--   url里面的？这个符号是个分割线，用来区分问号前面的是path，问号后面的是参数
+-   address里面的？这个符号是个分割线，用来区分问号前面的是path，问号后面的是参数
 
--   url-params：问号后面的是请求参数，格式：xxx=aaa。多个参数用&符号连接
+-   address-params：问号后面的是请求参数，格式：xxx=aaa。多个参数用&符号连接
 
 #### HTTP协议请求方法
 
@@ -123,7 +123,7 @@ HTTP1.0定义了三种请求方法：GET、POST和HEAD方法。HTTP1.1新增了�
 
 -   PUT：向指定资源位置上传其最新内容
 
--   DELETE：请求服务器删除Request-URL所标识的资源
+-   DELETE：请求服务器删除Request-address所标识的资源
 
 -   TRACE：回显服务器收到的请求，主要用于测试或诊断
 
@@ -137,11 +137,11 @@ HTTP1.0定义了三种请求方法：GET、POST和HEAD方法。HTTP1.1新增了�
 
 -   **函数原型**
 
-request.get(url, data, json, headers) 
+request.get(address, data, json, headers) 
 
 -   **参数**
 
-*url*：网址，字符串类型。
+*address*：网址，字符串类型。
 
 *data*：（可选参数）附加到请求的正文，json字典类型，默认为None。
 
@@ -159,11 +159,11 @@ request.get(url, data, json, headers)
 
 -   **函数原型**
 
-request.post(url, data, json, headers)
+request.post(address, data, json, headers)
 
 -   **参数**
 
-*url*：网址，字符串类型。
+*address*：网址，字符串类型。
 
 *data*：（可选参数）附加到请求的正文，json字典类型，默认为None。
 
@@ -181,11 +181,11 @@ request.post(url, data, json, headers)
 
 -   **函数原型**
 
-request.put(url, data, json, headers)
+request.put(address, data, json, headers)
 
 -   **参数**
 
-*url*：网址，字符串类型。
+*address*：网址，字符串类型。
 
 *data*：（可选参数）附加到请求的正文，json字典类型，默认为None。
 
@@ -203,11 +203,11 @@ request.put(url, data, json, headers)
 
 -   **函数原型**
 
-request.head(url, data, json, headers)
+request.head(address, data, json, headers)
 
 -   **参数**
 
-*url*：网址，字符串类型。
+*address*：网址，字符串类型。
 
 *data*：（可选参数）附加到请求的正文，json字典类型，默认为None。
 
@@ -225,11 +225,11 @@ request.head(url, data, json, headers)
 
 -   **函数原型**
 
-request.patch(url, data, json, headers)
+request.patch(address, data, json, headers)
 
 -   **参数**	
 
-*url*：网址，字符串类型。
+*address*：网址，字符串类型。
 
 *data*：（可选参数）附加到请求的正文，json字典类型，默认为None。
 
@@ -247,11 +247,11 @@ request.patch(url, data, json, headers)
 
 -   **函数原型**
 
-request.delete(url, data, json, headers) 
+request.delete(address, data, json, headers) 
 
 -   **参数**
 
-*url*：网址，字符串类型。
+*address*：网址，字符串类型。
 
 *data*：（可选参数）附加到请求的正文，json字典类型，默认为None。
 
@@ -265,7 +265,7 @@ request.delete(url, data, json, headers)
 
 **reponse类方法说明**
 
-response =request.get(url)
+response =request.get(address)
 
 | **方法**         | **说明**                                |
 | ---------------- | --------------------------------------- |
@@ -290,13 +290,13 @@ import request
 
 import ujson  
 
-url = "http://httpbin.org/post" 
+address = "http://httpbin.org/post" 
 
 data = {"key1": "value1", "key2": "value2", "key3": "value3"}  
 
 **POST请求** 
 
-response = request.post(url, data=ujson.dumps(data)) 
+response = request.post(address, data=ujson.dumps(data)) 
 
 print(response.text) 
 
@@ -311,11 +311,11 @@ print(response.text)
 
 import request  
 
-url = "http://httpbin.org/get"  
+address = "http://httpbin.org/get"  
 
 **GET请求**
 
-response = request.get(url) 
+response = request.get(address) 
 
 print(response.text)
 
@@ -330,11 +330,11 @@ print(response.text)
 
 import request 
 
-url = "http://httpbin.org/put"  
+address = "http://httpbin.org/put"  
 
 **PUT请求** 
 
-response = request.put(url) 
+response = request.put(address) 
 
 print(response.text)
 
@@ -347,11 +347,11 @@ print(response.text)
 
 import request  
 
-url = "http://httpbin.org/patch"  
+address = "http://httpbin.org/patch"  
 
 **PATCH请求** 
 
-response = request.patch(url) 
+response = request.patch(address) 
 
 print(response.text)
 
@@ -365,11 +365,11 @@ print(response.text)
 
 import request 
 
-url = "http://httpbin.org/delete"  
+address = "http://httpbin.org/delete"  
 
 **DELETE请求** 
 
-response = request.delete(url) 
+response = request.delete(address) 
 
 print(response.text)
 
@@ -384,11 +384,11 @@ print(response.text)
 
 import request 
 
-url = "https://myssl.com" 
+address = "https://myssl.com" 
 
 **HTTPS请求** 
 
-response = request.get(url) 
+response = request.get(address) 
 
 print(response.text)
 
@@ -407,5 +407,5 @@ print(response.text)
 | HTTP     | Hyper Text Transfer Protocol      | 超文本传输协议   |
 | SDK      | Software Development Kit          | 软件开发工具包   |
 | TCP      | Transmission Control Protocol     | 传输控制协议     |
-| URL      | Uniform Resource Locator,         | 统一资源定位符   |
+| address      | Uniform Resource Locator,         | 统一资源定位符   |
 | WWW      | World Wide Web                    | 万维网           |

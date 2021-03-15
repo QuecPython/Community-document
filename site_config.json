@@ -1,7 +1,7 @@
 {
     "site_name": "QuecPython",
     "site_slogon": "让开发更迅速",
-    "site_root_url": "/doc",
+    "site_root_url": "/",
     "site_domain": "github.com/quecpython/wiki",
     "site_protocol": "https",
     "route": {

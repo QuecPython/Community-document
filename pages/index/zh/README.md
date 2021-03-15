@@ -66,7 +66,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <a href="/Quick_start/zh/" class="article-a">
                     <p class="article-p-h">QuecPython快速开始</p>
                 </a>
-                <p class="article-p-t">QuecPython快速开始</font>
+                <p class="article-p-t">最新：2021-03-31</font>
                 </p>              
             </div>
             <!-- QuecPython手把手教学-->

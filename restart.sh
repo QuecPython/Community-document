@@ -47,7 +47,7 @@ function teedoc_src_release() {
 }
 
 function teedoc_publish_to_server() {
-    rsync ./out/ root@192.168.25.215:/home/dist/teedoc -r -v -i
+    rsync ./out/doc/ root@192.168.25.215:/home/dist/doc -r -v -i
 }
 
 function copy_file() {

@@ -28,7 +28,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image01.jpg" alt="Sample Image" />
-					<a href="/Quecpython_intro/zh/index.html" class="article-a">
+					<a href="/doc/Quecpython_intro/zh/index.html" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -39,7 +39,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         </div>
                     </figcaption>
                 </figure>
-                <a href="/Quecpython_intro/zh/index.html" class="article-a">
+                <a href="/doc/Quecpython_intro/zh/index.html" class="article-a">
                     <p class="article-p-h">QuecPython产品介绍</p>
                 </a>
                 <p class="article-p-t">最新：2021-03-31</font>
@@ -50,7 +50,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image02.jpg" alt="Sample Image" />
-					<a href="/Quick_start/zh/index.html" class="article-a">
+					<a href="/doc/Quick_start/zh/index.html" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -63,7 +63,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         </div>
                     </figcaption>
                 </figure>
-                <a href="/Quick_start/zh/index.html" class="article-a">
+                <a href="/doc/Quick_start/zh/index.html" class="article-a">
                     <p class="article-p-h">QuecPython快速开始</p>
                 </a>
                 <p class="article-p-t">最新：2021-03-31</font>
@@ -74,7 +74,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image03.jpg" alt="Sample Image" />
-					<a href="/sbs/zh/index.html" class="article-a">
+					<a href="/doc/sbs/zh/index.html" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -85,7 +85,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         </div>
                     </figcaption>
                 </figure>
-                <a href="/sbs/zh/index.html" class="article-a">
+                <a href="/doc/sbs/zh/index.html" class="article-a">
                     <p class="article-p-h">QuecPython手把手教学</p>
                 </a>              
                 <p class="article-p-t">最新：2021-03-31</font>
@@ -99,7 +99,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image04.jpg" alt="Sample Image" />
-					<a href="/little_demo/zh/index.html" class="article-a">
+					<a href="/doc/little_demo/zh/index.html" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -110,7 +110,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         </div>
                     </figcaption>
                 </figure>
-                <a href="/little_demo/zh/index.html" class="article-a">
+                <a href="/doc/little_demo/zh/index.html" class="article-a">
                     <p class="article-p-h">QuecPython小实验</p>
                 </a>
                 <p class="article-p-t">最新：2021-03-31</font>
@@ -121,7 +121,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image05.jpg" alt="Sample Image" />
-					<a href="/Advanced_development/zh/index.html" class="article-a">
+					<a href="/doc/Advanced_development/zh/index.html" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -132,7 +132,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         </div>
                     </figcaption>
                 </figure>
-                <a href="/Advanced_development/zh/index.html" class="article-a">
+                <a href="/doc/Advanced_development/zh/index.html" class="article-a">
                     <p class="article-p-h">QuecPython开发进阶</p>
                 </a>
                 <p class="article-p-t">最新：2021-03-31</font>
@@ -143,7 +143,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image06.jpg" alt="Sample Image" />
-					<a href="/Product_case/zh/index.html" class="article-a">
+					<a href="/doc/Product_case/zh/index.html" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -154,7 +154,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         </div>
                     </figcaption>
                 </figure>
-                <a href="/Product_case/zh/index.html" class="article-a">
+                <a href="/doc/Product_case/zh/index.html" class="article-a">
                     <p class="article-p-h">QuecPython产品案例</p>
                 </a>
                 <p class="article-p-t">最新：2021-03-31</font>
@@ -168,7 +168,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image07.jpg" alt="Sample Image" />
-					<a href="/Mass_production/zh/index.html" class="article-a">
+					<a href="/doc/Mass_production/zh/index.html" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -179,7 +179,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         </div>
                     </figcaption>
                 </figure>
-                <a href="/Mass_production/zh/index.html" class="article-a">
+                <a href="/doc/Mass_production/zh/index.html" class="article-a">
                     <p class="article-p-h">QuecPython产品量产</p>
                 </a>
                 <p class="article-p-t">最新：2021-03-31</font>
@@ -190,7 +190,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                 <figure class="c4-izmir c4-border-corners-1 c4-image-zoom-out c4-gradient-bottom" tabindex="0"
                     style="--primary-color: #E0EAFC; --secondary-color: #CFDEF3; --text-color: #1f467b; --border-color: #1f467b; --image-opacity: .1;">
                     <img src="assets/images/image08.jpg" alt="Sample Image" />
-					<a href="/FAQ/zh/index.html" class="article-a">
+					<a href="/doc/FAQ/zh/index.html" class="article-a">
                     <figcaption class="c4-layout-top-left">
                         <div class="c4-reveal-down">
                             <div>
@@ -203,7 +203,7 @@ desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页
                         </div>
                     </figcaption>
                 </figure>
-                <a href="/FAQ/zh/index.html" class="article-a">
+                <a href="/doc/FAQ/zh/index.html" class="article-a">
                     <p class="article-p-h">QuecPython常见问题</p>
                 </a>
                 <p class="article-p-t">最新：2021-03-31</font>

@@ -51,7 +51,8 @@ function teedoc_publish_to_server() {
     cp ${OUT_DOC_TOP_DIC}/doc/*.html ${OUT_DOC_TOP_DIC}
     cp ${OUT_DOC_TOP_DIC}/doc/*.ico ${OUT_DOC_TOP_DIC}
     cp ${OUT_DOC_TOP_DIC}/doc/*.json ${OUT_DOC_TOP_DIC}
-    rsync ${OUT_DOC_TOP_DIC} root@192.168.25.215:/home/dist/doc -r -v -i
+    # rsync ${OUT_DOC_TOP_DIC}/ root@192.168.25.215:/home/dist/doc -r -v -i
+    rsync ${OUT_DOC_TOP_DIC}/ /www/wwwroot/test.com/doc -r -v -i
 }
 
 function copy_file() {

@@ -20,7 +20,8 @@
             "/": "pages/index/zh"
         },
         "assets": {
-            "/static/": "static"
+            "/static/": "static",
+            "/assets/": "assets"
         },
         "/blog/": "blog"
     },

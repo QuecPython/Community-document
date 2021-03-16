@@ -18,35 +18,35 @@
                 "position": "left",
                 "items": [
                     {
-                        "url": "/doc/Quecpython_intro/zh/",
+                        "url": "/doc/Quecpython_intro/zh/index.html",
                         "label": "产品介绍"
                     },
                     {
-                        "url": "/doc/Quick_start/zh/",
+                        "url": "/doc/Quick_start/zh/index.html",
                         "label": "快速开始"
                     },
                     {
-                        "url": "/doc/sbs/zh/",
+                        "url": "/doc/sbs/zh/index.html",
                         "label": "手把手教程"
                     },
                     {
-                        "url": "/doc/Advanced_development/zh/",
+                        "url": "/doc/Advanced_development/zh/index.html",
                         "label": "开发进阶"
                     },
                     {
-                        "url": "/doc/little_demo/zh/",
+                        "url": "/doc/little_demo/zh/index.html",
                         "label": "小实验"
                     },
                     {
-                        "url": "/doc/Product_case/zh/",
+                        "url": "/doc/Product_case/zh/index.html",
                         "label": "产品案例"
                     },
                     {
-                        "url": "/doc/Mass_production/zh/",
+                        "url": "/doc/Mass_production/zh/index.html",
                         "label": "产品量产"
                     },
                     {
-                        "url": "/doc/FAQ/zh/",
+                        "url": "/doc/FAQ/zh/index.html",
                         "label": "常见问题"
                     }
                 ]

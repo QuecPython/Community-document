@@ -51,8 +51,19 @@ function teedoc_publish_to_server() {
     cp ${OUT_DOC_TOP_DIC}/doc/*.html ${OUT_DOC_TOP_DIC}
     cp ${OUT_DOC_TOP_DIC}/doc/*.ico ${OUT_DOC_TOP_DIC}
     cp ${OUT_DOC_TOP_DIC}/doc/*.json ${OUT_DOC_TOP_DIC}
-    # rsync ${OUT_DOC_TOP_DIC}/ root@192.168.25.215:/home/dist/doc -r -v -i
-    rsync ${OUT_DOC_TOP_DIC}/ /www/wwwroot/test.com/doc -r -v -i
+
+    case $1 in
+    "root@192.168.25.215:/home/dist/doc")
+        echo "确认发布到服务器: "
+        sudo chmod -R 777 .
+        rsync ${OUT_DOC_TOP_DIC}/ $1 -r -i
+        ;;
+    *)
+        echo "发布到 /www/wwwroot/test.com/doc 文件夹"
+        sudo chmod -R 777 .
+        rsync ${OUT_DOC_TOP_DIC}/ /www/wwwroot/test.com/doc -r -i > /dev/null
+        ;;
+    esac
 }
 
 function copy_file() {
@@ -85,7 +96,7 @@ case $1 in
     teedoc_src_release
     ;;
 "publish")
-    teedoc_publish_to_server
+    teedoc_publish_to_server $2
     ;;
 
 "toc")

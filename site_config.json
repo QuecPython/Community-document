@@ -1,20 +1,20 @@
 {
     "site_name": "QuecPython",
     "site_slogon": "让开发更迅速",
-    "site_root_url": "/",
+    "site_root_url": "/doc",
     "site_domain": "github.com/quecpython/wiki",
     "site_protocol": "https",
     "route": {
         "docs": {
-            "/Quecpython_intro/zh": "docs/Quecpython_intro/zh",
-            "/Development_env_tools/zh": "docs/Development_env_tools/zh",
-            "/Quick_start/zh": "docs/Quick_start/zh",
-            "/little_demo/zh": "docs/little_demo/zh",
-            "/Advanced_development/zh": "docs/Advanced_development/zh",
-            "/Product_case/zh": "docs/Product_case/zh",
-            "/Mass_production/zh": "docs/Mass_production/zh",
-            "/FAQ/zh": "docs/FAQ/zh",
-            "/sbs/zh": "docs/sbs/zh"
+            "/doc/Quecpython_intro/zh": "docs/Quecpython_intro/zh",
+            "/doc/Development_env_tools/zh": "docs/Development_env_tools/zh",
+            "/doc/Quick_start/zh": "docs/Quick_start/zh",
+            "/doc/little_demo/zh": "docs/little_demo/zh",
+            "/doc/Advanced_development/zh": "docs/Advanced_development/zh",
+            "/doc/Product_case/zh": "docs/Product_case/zh",
+            "/doc/Mass_production/zh": "docs/Mass_production/zh",
+            "/doc/FAQ/zh": "docs/FAQ/zh",
+            "/doc/sbs/zh": "docs/sbs/zh"
         },
         "pages": {
             "/": "pages/index/zh"

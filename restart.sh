@@ -47,7 +47,11 @@ function teedoc_src_release() {
 }
 
 function teedoc_publish_to_server() {
-    rsync ./out/doc/ root@192.168.25.215:/home/dist/doc -r -v -i
+    OUT_DOC_TOP_DIC=./out/doc/
+    cp ${OUT_DOC_TOP_DIC}/doc/*.html ${OUT_DOC_TOP_DIC}
+    cp ${OUT_DOC_TOP_DIC}/doc/*.ico ${OUT_DOC_TOP_DIC}
+    cp ${OUT_DOC_TOP_DIC}/doc/*.json ${OUT_DOC_TOP_DIC}
+    rsync ${OUT_DOC_TOP_DIC} root@192.168.25.215:/home/dist/doc -r -v -i
 }
 
 function copy_file() {
@@ -93,8 +97,8 @@ case $1 in
     ;;
 *)
     if [ $# = 0 ]; then
-        # 没有参数，默认restart
-        restart
+        # 没有参数，默认
+        teedoc_build
     else
         # 错误的参数
         echo "ERROR: $0 $1  错误的参数"

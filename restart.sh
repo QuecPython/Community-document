@@ -43,7 +43,7 @@ function teedoc_release() {
 
 function teedoc_src_release() {
     release_filename=Community-document-src-$(date "+%Y%m%d-%H%M")
-    /home/dist/teedoc
+    tar -zcvf ${release_filename}.tar.gz --exclude-from .tar_excludefile .
 }
 
 function teedoc_publish_to_server() {
@@ -61,7 +61,7 @@ function teedoc_publish_to_server() {
     *)
         echo "发布到 /www/wwwroot/test.com/doc 文件夹"
         sudo chmod -R 777 ${OUT_DOC_TOP_DIC}
-        rsync ${OUT_DOC_TOP_DIC}/ /www/wwwroot/test.com/doc -r -i > /dev/null
+        rsync ${OUT_DOC_TOP_DIC}/ /www/wwwroot/test.com/doc -r -i >/dev/null
         ;;
     esac
 }

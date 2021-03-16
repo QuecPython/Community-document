@@ -55,12 +55,12 @@ function teedoc_publish_to_server() {
     case $1 in
     "root@192.168.25.215:/home/dist/doc")
         echo "确认发布到服务器: "
-        sudo chmod -R 777 .
+        sudo chmod -R 777 ${OUT_DOC_TOP_DIC}
         rsync ${OUT_DOC_TOP_DIC}/ $1 -r -i
         ;;
     *)
         echo "发布到 /www/wwwroot/test.com/doc 文件夹"
-        sudo chmod -R 777 .
+        sudo chmod -R 777 ${OUT_DOC_TOP_DIC}
         rsync ${OUT_DOC_TOP_DIC}/ /www/wwwroot/test.com/doc -r -i > /dev/null
         ;;
     esac

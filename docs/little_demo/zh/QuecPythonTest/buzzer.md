@@ -27,47 +27,31 @@
 
 | **蜂鸣器** | **EC600开发板**   | **对应的函数标号** |
 | ---------- | ----------------- | ------------------ |
-| IO (PWM)   | GPIO81 (引脚号16) | PWM2               |
+| IO (PWM)   | GPIO2 (引脚号70)  | PWM2               |
 | VCC        | 5_5V电源          | 无                 |
 | GND        | 地                | 无                 |
 
+#### 查询开发板对应的IO口
+
+在wiki_API说明_类库_PWM中可以确定70号引脚对应的函数标号为PWM2，原理图找到对应的GPIO口为GPIO2，通过搜索查询GPIO2可确定IO口为开发板上J5的倒数第二口。（也可直接通过肉眼找到开发板中G2字眼）
+
+EC600S_EVB_v1.1开发板原理图下载链接：<https://python.quectel.com/download>
+
+![](media\QuecPython_little_demo_buzzer01.png)
+
+
 #### 实验代码
 
-```
-'''
-
-File: pwm_buzzer.py
-
-Project: pwm
-
-File Created: Wednesday, 30th December 2020 5:02:46 pm
-
-Author: chengzhu.zhou
-
------
-
-Last Modified: Wednesday, 30th December 2020 5:02:48 pm
-
-Modified By: chengzhu.zhou
-
------
-
-Copyright 2020 - 2020 quectel
-
-'''
+```python
 
 from misc import PWM
-
 import utime as time
-
 import urandom as random
-
 import log
 
-# API https://python.quectel.com/wiki/#/zh-cn/api/?id=pwm
-
+# API https://python.quectel.com/wiki/#/zh-cn/api/QuecPythonClasslib?id=pwm
 # 蜂鸣器模块 https://detail.tmall.com/item.htm?id=41251333522
-无源蜂鸣器-频率可控版
+# 无源蜂鸣器-频率可控版
 
 """
 
@@ -85,86 +69,69 @@ PWM3 – 引脚号69
 
 """
 
-"""
-
-| 蜂鸣器 | EC600开发板 | 对应的函数标号 |
-
-| ---------- | ------------------ | ------- |
-
-| IO (PWM) | GPIO81 (引脚号16) | PWM2 |
-
-| VCC | 3_3V电源 | 无 |
-
-| GND | 地 | 无 |
-
-"""
+# 获取logger对象
 
 buzzer_log = log.getLogger("buzzer_test")
-
-
 
 # Duration 为 ms
 
 def outputpwm(HZ, duty_cycle, Duration):
 
-# 将HZ 转化为 10us 级别
+    # 将HZ 转化为 10us 级别
 
-cycleTime = int((10000000/HZ)/10)
+    cycleTime = int((10000000/HZ)/10)
+    highTime = int(cycleTime * duty_cycle)
 
-		highTime = int(cycleTime * duty_cycle)
+    # 输出debug级别的日志
+        
+    buzzer_log.debug(
+	    """out put pin70 cycleTime {0} * 10us,
+	    highTime {1} * 10us, Duration of {2}"""
+	    .format(cycleTime, highTime, Duration))
+    pwm1 = PWM(PWM.PWM2, PWM.ABOVE_10US, highTime, cycleTime)       
+    pwm1.open()
 
-		buzzer_log.debug(
-
-				"""out put pin70 cycleTime {0} * 10us,
-
-				highTime {1} * 10us, Duration of {2}"""
-
-				.format(cycleTime, highTime, Duration))
-
-				pwm1 = PWM(PWM.PWM2, PWM.ABOVE_10US, highTime, cycleTime)
-
-		pwm1.open()
-
-		time.sleep_ms(Duration)
-
-		pwm1.close()
-
-		pass
-
+    # 休眠给定毫秒数的时间
+        
+    time.sleep_ms(Duration)
+    pwm1.close()
+    pass
 
 
 def test_Buzzer():
 
-		log.basicConfig(level=log.DEBUG)
+	#设置日志输出级别
 
-		for i in range(10):
+	log.basicConfig(level=log.DEBUG)
 
-				# 建议输出2000~5000HZ 的PWM波形
+	# 循环遍历10次
 
-				# 范围可以自己选择， 0~1
+	for i in range(10):
 
-				duty_cycle = random.uniform(0.1, 0.8)
+		# 随机生成 start 到 end 范围内的浮点数，范围可以自己选择， 0~1
 
-				HZ = random.randint(2000, 5000)
+		duty_cycle = random.uniform(0.1, 0.8)
 
-				outputpwm(HZ, duty_cycle, 500)
+		# 建议输出2000~5000HZ 的PWM波形
+		# 随机生成一个 start 到 end 之间的整数
 
-				time.sleep_ms(1500)
-
-		pass
-
+		HZ = random.randint(2000, 5000)
+		outputpwm(HZ, duty_cycle, 500)
+		time.sleep_ms(1500)
+        
+	pass
 
 
 if __name__ == "__main__":
 
-		# creat a thread Check key status
+	# creat a thread Check key status
 
-		test_Buzzer()
+	test_Buzzer()
 
-将代码下载运行，可以听到蜂鸣器产生随机的声音。
+# 将代码下载运行，可以听到蜂鸣器产生随机的声音
 ```
 
 ### 配套代码
 
-<!-- * [下载代码](code/pwm_buzzer.py) -->
- <a href="zh-cn/QuecPythonTest/code/pwm_buzzer.py" target="_blank">下载代码</a>
+* [下载代码](code/pwm_buzzer.py)
+ <!-- <a href="zh\QuecPythonTest\code\pwm_buzzer.py" target="_blank">下载代码</ -->

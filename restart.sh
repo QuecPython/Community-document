@@ -44,6 +44,7 @@ function teedoc_release() {
 function teedoc_src_release() {
     release_filename=Community-document-src-$(date "+%Y%m%d-%H%M")
     tar -zcvf ${release_filename}.tar.gz --exclude-from .tar_excludefile .
+    mv ${release_filename}.tar.gz .. 
 }
 
 function teedoc_publish_to_server() {

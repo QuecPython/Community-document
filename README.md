@@ -31,7 +31,4 @@ teedoc install
 teedoc build
 teedoc serve
 ```
-
 then visit [http://127.0.0.1:2333](http://127.0.0.1:2333)
-
-

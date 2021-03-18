@@ -3,7 +3,6 @@ teedoc official website
 
 visit: [teedoc.github.io](https://teedoc.github.io)
 
-
 ## build locally
 
 * Install teedoc
